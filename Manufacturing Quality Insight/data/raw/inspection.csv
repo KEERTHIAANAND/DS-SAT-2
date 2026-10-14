@@ -1,0 +1,501 @@
+batch,defect_type,defect_count,quality_status
+BF0001,Surface Crack,8,Pass
+BF0002,Weld Defect,20,Rework
+BF0003,Weld Defect,23,Rework
+BF0004,Weld Defect,13,Rework
+BF0005,Dimensional Error,9,Pass
+BF0006,Burr,1,Pass
+BF0007,Weld Defect,14,Rework
+BF0008,Burr,30,Reject
+BF0009,Porosity,13,Rework
+BF0010,Porosity,8,Reject
+BF0011,Burr,15,Reject
+BF0012,Burr,20,Reject
+BF0013,Surface Crack,21,Rework
+BF0014,Surface Crack,31,Reject
+BF0015,Surface Crack,10,Rework
+BF0016,Weld Defect,14,Rework
+BF0017,Porosity,8,Pass
+BF0018,Weld Defect,23,Reject
+BF0019,Weld defect,20,Rework
+BF0020,Dimensional Error,8,Reject
+BF0021,Weld Defect,22,Reject
+BF0022,Dimensional Error,3,Pass
+BF0023,Weld Defect,12,Pass
+BF0024,Porosity,11,Reject
+BF0025,Surface Crack,12,Rework
+BF0026,Dimensional Error,24,Rework
+BF0027,Burr,16,Rework
+BF0028,Porosity,21,Reject
+BF0029,Weld Defect,18,Reject
+BF0030,Surface Crack,18,Rework
+BF0031,Burr,27,Reject
+BF0032,Surface Crack,20,Reject
+BF0033,Dimensional Error,21,Rework
+BF0034,Burr,22,Rework
+BF0035,Porosity,19,Rework
+BF0036,Surface Crack,56,Reject
+BF0037,Surface Crack,29,Reject
+BF0038,Surface Crack,17,Rework
+BF0039,Dimensional Error,81,Reject
+BF0040,Surface Crack,4,Rework
+BF0041,Surface Crack,11,Rework
+BF0042,Porosity,9,Rework
+BF0043,Porosity,7,Rework
+BF0044,Surface Crack,8,Rework
+BF0045,Dimensional Error,39,Reject
+BF0046,Surface Crack,5,Rework
+BF0047,Porosity,45,Reject
+BF0048,Porosity,26,Reject
+BF0049,Dimensional Error,11,Rework
+BF0050,Porosity,10,Pass
+BF0051,Surface Crack,48,Reject
+BF0052,Weld Defect,8,Rework
+BF0053,Weld Defect,7,Reject
+BF0054,Dimensional error,15,Rework
+BF0055,Surface Crack,28,Rework
+BF0056,Porosity,45,Reject
+BF0057,Surface Crack,12,Rework
+BF0058,Surface Crack,11,Rework
+BF0059,Weld Defect,2,Pass
+BF0060,Surface Crack,9,Reject
+BF0061,Surface Crack,21,Rework
+BF0062,Dimensional Error,15,Reject
+BF0063,Surface Crack,5,Rework
+BF0064,No Defect,0,Pass
+BF0065,Burr,8,Rework
+BF0066,Weld Defect,12,Rework
+BF0067,Dimensional Error,22,Rework
+BF0068,Weld Defect,7,Rework
+BF0069,Surface Crack,18,Rework
+BF0070,Burr,17,Rework
+BF0071,Dimensional Error,19,Reject
+BF0072,POROSITY,9,Pass
+BF0073,Weld Defect,5,Pass
+BF0074,Dimensional Error,9,Pass
+BF0075,Burr,9,Rework
+BF0076,Weld Defect,5,Rework
+BF0077,Burr,2,Pass
+BF0078,Burr,49,Reject
+BF0079,Surface Crack,17,Rework
+BF0080,Burr,2,Pass
+BF0081,Burr,7,Rework
+BF0082,Dimensional Error,19,Rework
+BF0083,Porosity,5,Rework
+BF0084,Surface Crack,8,Pass
+BF0085,Burr,7,Rework
+BF0086,Surface Crack,6,Rework
+BF0087,Surface Crack,14,Rework
+BF0088,Burr,3,Pass
+BF0089,Dimensional Error,18,Rework
+BF0090,Burr,10,Reject
+BF0091,Surface Crack,20,Reject
+BF0092,Dimensional Error,39,Reject
+BF0093,Surface Crack,6,Pass
+BF0094,Surface Crack,47,Reject
+BF0095,Dimensional Error,40,Reject
+BF0096,Weld Defect,47,Reject
+BF0097,Dimensional Error,16,Rework
+BF0098,Dimensional Error,18,Rework
+BF0099,Weld Defect,9,Rework
+BF0100,Weld Defect,11,Rework
+BF0101,Dimensional Error,2,Pass
+BF0102,Surface Crack,9,Pass
+BF0103,Porosity,2,Pass
+BF0104,Dimensional Error,6,Rework
+BF0105,Surface Crack,40,Reject
+BF0106,burr,18,Reject
+BF0107,Burr,16,Rework
+BF0108,Surface Crack,3,Pass
+BF0109,Surface Crack,37,Reject
+BF0110,Surface Crack,10,Rework
+BF0111,Burr,32,Reject
+BF0112,Dimensional Error,8,Reject
+BF0113,Porosity,18,Rework
+BF0114,Porosity,24,Rework
+BF0115,Porosity,10,Rework
+BF0116,Porosity,20,Rework
+BF0117,Weld Defect,35,Reject
+BF0118,Dimensional Error,34,Reject
+BF0119,Surface Crack,12,Reject
+BF0120,Burr,7,Pass
+BF0121,Porosity,23,Reject
+BF0122,Surface Crack,11,Rework
+BF0123,Burr,27,Reject
+BF0124,Surface Crack,27,Reject
+BF0125,Dimensional Error,15,Rework
+BF0126,Burr,18,Reject
+BF0127,Weld Defect,8,Pass
+BF0128,Weld Defect,5,Rework
+BF0129,Weld Defect,15,Rework
+BF0130,Weld Defect,47,Reject
+BF0131,Dimensional Error,19,Reject
+BF0132,Surface Crack,17,Reject
+BF0133,Dimensional Error,18,Rework
+BF0134,Weld Defect,15,Reject
+BF0135,Weld Defect,7,Rework
+BF0136,Porosity,68,Reject
+BF0137,Dimensional Error,11,Rework
+BF0138,Porosity,65,Reject
+BF0139,Surface Crack,13,Rework
+BF0140,Burr,22,Rework
+BF0141,Surface Crack,19,Rework
+BF0142,Burr,12,Rework
+BF0143,Dimensional Error,20,Rework
+BF0144,Surface Crack,20,Rework
+BF0145,Dimensional Error,5,Pass
+BF0146,Dimensional Error,20,Reject
+BF0147,Dimensional Error,3,Pass
+BF0148,Surface Crack,3,Pass
+BF0149,Burr,42,Reject
+BF0150,Surface Crack,9,Pass
+BF0151,Surface Crack,32,Reject
+BF0152,Dimensional Error,29,Reject
+BF0153,Porosity,21,Rework
+BF0154,Burr,19,Rework
+BF0155,Weld Defect,35,Reject
+BF0156,Surface Crack,12,Pass
+BF0157,Surface Crack,16,Rework
+BF0158,surface crack,15,Reject
+BF0159,Surface Crack,9,Rework
+BF0160,Dimensional Error,9,Pass
+BF0161,Surface Crack,6,Rework
+BF0162,Burr,33,Reject
+BF0163,Dimensional Error,16,Rework
+BF0164,Weld Defect,9,Pass
+BF0165,No Defect,0,Pass
+BF0166,Burr,13,Reject
+BF0167,Weld Defect,16,Rework
+BF0168,Surface Crack,43,Reject
+BF0169,Weld Defect,4,Pass
+BF0170,Surface Crack,11,Pass
+BF0171,Porosity,7,Pass
+BF0172,Surface Crack,14,Reject
+BF0173,Burr,16,Rework
+BF0174,Surface Crack,12,Rework
+BF0175,Burr,96,Reject
+BF0176,Surface Crack,6,Rework
+BF0177,Porosity,37,Reject
+BF0178,Surface Crack,11,Reject
+BF0179,burr,25,Reject
+BF0180,Surface Crack,20,Reject
+BF0181,Dimensional Error,17,Reject
+BF0182,Burr,10,Rework
+BF0183,Porosity,26,Reject
+BF0184,surface crack,43,Reject
+BF0185,Dimensional Error,17,Reject
+BF0186,Dimensional Error,8,Reject
+BF0187,Surface Crack,6,Pass
+BF0188,Surface Crack,1,Pass
+BF0189,Surface Crack,9,Pass
+BF0190,Burr,27,Reject
+BF0191,Porosity,16,Rework
+BF0192,Dimensional Error,7,Rework
+BF0193,Surface Crack,6,Pass
+BF0194,surface crack,1,Pass
+BF0195,Porosity,54,Reject
+BF0196,Porosity,11,Pass
+BF0197,Dimensional Error,29,Reject
+BF0198,Dimensional Error,13,Rework
+BF0199,Porosity,6,Rework
+BF0200,Weld Defect,4,Rework
+BF0201,Burr,8,Pass
+BF0202,Burr,20,Rework
+BF0203,Surface Crack,14,Rework
+BF0204,Dimensional Error,38,Reject
+BF0205,Porosity,6,Pass
+BF0206,Dimensional Error,16,Rework
+BF0207,Surface Crack,3,Pass
+BF0208,Dimensional Error,8,Rework
+BF0209,Surface Crack,11,Reject
+BF0210,Dimensional Error,26,Reject
+BF0211,Surface Crack,21,Reject
+BF0212,Weld defect,31,Reject
+BF0213,Porosity,10,Rework
+BF0214,Dimensional Error,5,Rework
+BF0215,Porosity,8,Reject
+BF0216,Dimensional Error,49,Reject
+BF0217,Porosity,28,Reject
+BF0218,Burr,15,Rework
+BF0219,Dimensional Error,4,Rework
+BF0220,Weld Defect,11,Pass
+BF0221,Dimensional Error,10,Rework
+BF0222,Surface Crack,11,Rework
+BF0223,Weld Defect,6,Pass
+BF0224,Dimensional Error,17,Reject
+BF0225,Weld Defect,20,Rework
+BF0226,Surface Crack,26,Reject
+BF0227,Porosity,54,Reject
+BF0228,Weld Defect,13,Rework
+BF0229,Weld Defect,54,Reject
+BF0230,Porosity,3,Pass
+BF0231,Surface Crack,11,Reject
+BF0232,Burr,18,Reject
+BF0233,Porosity,6,Rework
+BF0234,Surface Crack,59,Reject
+BF0235,Dimensional Error,12,Pass
+BF0236,Dimensional Error,14,Rework
+BF0237,Porosity,4,Pass
+BF0238,Weld Defect,6,Pass
+BF0239,Porosity,43,Reject
+BF0240,Weld Defect,3,Pass
+BF0241,Dimensional Error,20,Reject
+BF0242,Dimensional Error,8,Rework
+BF0243,Dimensional Error,74,Reject
+BF0244,Dimensional Error,17,Rework
+BF0245,Porosity,5,Rework
+BF0246,Surface Crack,7,Rework
+BF0247,Dimensional Error,6,Rework
+BF0248,Dimensional Error,45,Reject
+BF0249,Surface Crack,6,Rework
+BF0250,Porosity,25,Reject
+BF0251,Porosity,19,Rework
+BF0252,Porosity,30,Reject
+BF0253,surface crack,18,Rework
+BF0254,Dimensional Error,31,Reject
+BF0255,Surface Crack,2,Pass
+BF0256,Dimensional Error,7,Pass
+BF0257,Dimensional Error,24,Reject
+BF0258,Porosity,28,Reject
+BF0259,burr,32,Reject
+BF0260,Dimensional Error,11,Rework
+BF0261,Burr,18,Reject
+BF0262,Weld Defect,68,Reject
+BF0263,Weld Defect,34,Reject
+BF0264,Dimensional Error,39,Reject
+BF0265,Weld Defect,14,Reject
+BF0266,Dimensional Error,5,Rework
+BF0267,Surface Crack,72,Reject
+BF0268,Dimensional Error,16,Rework
+BF0269,Dimensional Error,9,Reject
+BF0270,Porosity,28,Reject
+BF0271,Burr,9,Rework
+BF0272,Porosity,56,Reject
+BF0273,Porosity,11,Pass
+BF0274,Porosity,15,Rework
+BF0275,No Defect,0,Pass
+BF0276,Dimensional error,16,Reject
+BF0277,Weld Defect,2,Pass
+BF0278,Weld Defect,16,Rework
+BF0279,Burr,29,Reject
+BF0280,Dimensional Error,15,Rework
+BF0281,Burr,30,Reject
+BF0282,Burr,27,Reject
+BF0283,Porosity,10,Rework
+BF0284,Weld Defect,14,Rework
+BF0285,Dimensional Error,9,Rework
+BF0286,Dimensional Error,12,Rework
+BF0287,surface crack,21,Rework
+BF0288,Dimensional Error,25,Reject
+BF0289,Surface Crack,9,Rework
+BF0290,Dimensional Error,8,Pass
+BF0291,Porosity,14,Reject
+BF0292,Surface Crack,16,Rework
+BF0293,Porosity,17,Rework
+BF0294,Surface Crack,21,Rework
+BF0295,Dimensional Error,9,Rework
+BF0296,Porosity,6,Rework
+BF0297,Dimensional Error,11,Rework
+BF0298,Weld Defect,9,Rework
+BF0299,Dimensional Error,32,Reject
+BF0300,Surface Crack,10,Reject
+BF0301,Porosity,12,Rework
+BF0302,Surface Crack,12,Pass
+BF0303,Porosity,63,Reject
+BF0304,Surface Crack,15,Reject
+BF0305,Weld Defect,7,Pass
+BF0306,Burr,26,Reject
+BF0307,Dimensional Error,9,Rework
+BF0308,Dimensional Error,19,Rework
+BF0309,Porosity,15,Rework
+BF0310,Porosity,16,Rework
+BF0311,Porosity,5,Pass
+BF0312,Dimensional Error,10,Rework
+BF0313,Porosity,9,Rework
+BF0314,Surface Crack,15,Rework
+BF0315,Burr,14,Reject
+BF0316,Weld Defect,3,Pass
+BF0317,Surface Crack,3,Pass
+BF0318,Surface Crack,37,Reject
+BF0319,Porosity,18,Rework
+BF0320,Surface Crack,13,Rework
+BF0321,Porosity,12,Pass
+BF0322,Weld Defect,15,Rework
+BF0323,Dimensional Error,16,Reject
+BF0324,Weld Defect,11,Rework
+BF0325,Burr,14,Rework
+BF0326,Burr,20,Rework
+BF0327,Porosity,7,Pass
+BF0328,Dimensional Error,14,Reject
+BF0329,Dimensional error,5,Pass
+BF0330,Dimensional Error,6,Rework
+BF0331,Weld Defect,6,Pass
+BF0332,Surface Crack,7,Pass
+BF0333,Porosity,12,Rework
+BF0334,Dimensional Error,3,Pass
+BF0335,Dimensional Error,5,Pass
+BF0336,Surface Crack,10,Rework
+BF0337,Surface Crack,21,Rework
+BF0338,surface crack,9,Pass
+BF0339,Surface Crack,4,Rework
+BF0340,Weld Defect,9,Rework
+BF0341,Surface Crack,15,Rework
+BF0342,Surface Crack,34,Reject
+BF0343,Porosity,12,Reject
+BF0344,Porosity,5,Rework
+BF0345,Surface Crack,9,Rework
+BF0346,Surface Crack,6,Rework
+BF0347,Surface Crack,4,Rework
+BF0348,Porosity,3,Pass
+BF0349,Burr,16,Rework
+BF0350,Burr,24,Reject
+BF0351,Weld Defect,2,Pass
+BF0352,Weld Defect,6,Rework
+BF0353,Porosity,16,Rework
+BF0354,Dimensional Error,10,Pass
+BF0355,Surface Crack,12,Reject
+BF0356,Weld Defect,11,Rework
+BF0357,Dimensional Error,7,Pass
+BF0358,Dimensional Error,42,Reject
+BF0359,Surface Crack,14,Rework
+BF0360,Burr,9,Rework
+BF0361,Dimensional Error,12,Rework
+BF0362,Weld Defect,9,Reject
+BF0363,Weld Defect,31,Reject
+BF0364,Burr,18,Reject
+BF0365,Surface Crack,23,Reject
+BF0366,Weld Defect,34,Reject
+BF0367,Dimensional error,30,Reject
+BF0368,Dimensional Error,25,Reject
+BF0369,Surface Crack,15,Rework
+BF0370,Porosity,20,Reject
+BF0371,Burr,12,Pass
+BF0372,Surface Crack,21,Reject
+BF0373,Burr,6,Rework
+BF0374,Burr,27,Reject
+BF0375,Surface Crack,12,Rework
+BF0376,Dimensional Error,1,Pass
+BF0377,Weld Defect,13,Rework
+BF0378,Dimensional Error,7,Rework
+BF0379,Weld Defect,19,Reject
+BF0380,Weld Defect,33,Reject
+BF0381,Dimensional Error,11,Rework
+BF0382,Surface Crack,8,Rework
+BF0383,Porosity,23,Rework
+BF0384,Dimensional Error,1,Pass
+BF0385,Burr,21,Rework
+BF0386,Burr,3,Pass
+BF0387,Porosity,26,Reject
+BF0388,Weld Defect,6,Pass
+BF0389,Surface Crack,61,Reject
+BF0390,Dimensional Error,9,Rework
+BF0391,Weld Defect,43,Reject
+BF0392,Dimensional Error,38,Reject
+BF0393,Dimensional Error,35,Reject
+BF0394,Porosity,7,Rework
+BF0395,Porosity,9,Reject
+BF0396,Dimensional Error,6,Rework
+BF0397,Dimensional Error,8,Rework
+BF0398,Dimensional Error,36,Reject
+BF0399,Surface Crack,14,Reject
+BF0400,Burr,10,Rework
+BF0401,Porosity,4,Rework
+BF0402,Surface Crack,22,Reject
+BF0403,Surface Crack,10,Reject
+BF0404,Dimensional Error,7,Rework
+BF0405,Dimensional Error,48,Reject
+BF0406,Surface Crack,25,Reject
+BF0407,Dimensional Error,34,Reject
+BF0408,Weld Defect,4,Pass
+BF0409,Surface Crack,19,Reject
+BF0410,Porosity,7,Reject
+BF0411,Dimensional Error,22,Rework
+BF0412,Porosity,26,Reject
+BF0413,Dimensional Error,10,Rework
+BF0414,Dimensional Error,30,Reject
+BF0415,Weld Defect,26,Reject
+BF0416,Dimensional error,17,Rework
+BF0417,Surface Crack,70,Reject
+BF0418,Porosity,15,Reject
+BF0419,Dimensional Error,9,Reject
+BF0420,Burr,80,Reject
+BF0421,Porosity,34,Reject
+BF0422,Burr,6,Pass
+BF0423,Porosity,13,Reject
+BF0424,Burr,15,Rework
+BF0425,Weld Defect,34,Reject
+BF0426,Dimensional Error,6,Pass
+BF0427,Weld Defect,34,Reject
+BF0428,Surface Crack,12,Rework
+BF0429,Porosity,64,Reject
+BF0430,Surface Crack,15,Reject
+BF0431,Burr,9,Rework
+BF0432,Porosity,19,Rework
+BF0433,Weld Defect,22,Reject
+BF0434,Surface Crack,31,Reject
+BF0435,Porosity,62,Reject
+BF0436,Porosity,13,Reject
+BF0437,Surface Crack,20,Rework
+BF0438,Weld Defect,17,Reject
+BF0439,Burr,3,Pass
+BF0440,Burr,13,Rework
+BF0441,Weld Defect,10,Reject
+BF0442,Dimensional Error,16,Rework
+BF0443,Surface Crack,9,Rework
+BF0444,Surface Crack,8,Reject
+BF0445,Porosity,23,Reject
+BF0446,Weld Defect,3,Pass
+BF0447,Surface Crack,12,Rework
+BF0448,Dimensional Error,5,Rework
+BF0449,Porosity,7,Rework
+BF0450,Dimensional Error,4,Rework
+BF0451,Dimensional Error,11,Rework
+BF0452,Surface Crack,3,Pass
+BF0453,Weld Defect,24,Reject
+BF0454,Burr,37,Reject
+BF0455,Burr,4,Rework
+BF0456,Surface Crack,38,Reject
+BF0457,Surface Crack,7,Rework
+BF0458,Surface Crack,12,Rework
+BF0459,Surface Crack,8,Rework
+BF0460,Porosity,10,Rework
+BF0461,Burr,11,Pass
+BF0462,Porosity,3,Pass
+BF0463,Porosity,1,Pass
+BF0464,Weld Defect,5,Pass
+BF0465,Porosity,8,Reject
+BF0466,Burr,24,Rework
+BF0467,Dimensional Error,15,Rework
+BF0468,Weld Defect,24,Rework
+BF0469,Dimensional Error,14,Rework
+BF0470,Dimensional Error,11,Rework
+BF0471,Burr,10,Rework
+BF0472,Porosity,3,Pass
+BF0473,Surface Crack,25,Reject
+BF0474,Porosity,14,Rework
+BF0475,Porosity,13,Reject
+BF0476,Burr,22,Reject
+BF0477,Surface Crack,7,Pass
+BF0478,Weld Defect,42,Reject
+BF0479,Burr,28,Reject
+BF0480,Surface Crack,10,Rework
+BF0481,Weld Defect,2,Pass
+BF0482,Surface Crack,7,Rework
+BF0483,Weld Defect,5,Pass
+BF0484,Surface Crack,38,Reject
+BF0485,Porosity,5,Pass
+BF0486,Porosity,6,Pass
+BF0487,Surface Crack,18,Rework
+BF0488,Dimensional Error,47,Reject
+BF0489,Weld Defect,7,Pass
+BF0490,Weld Defect,6,Rework
+BF0491,Weld Defect,41,Reject
+BF0492,Dimensional Error,31,Reject
+BF0493,Burr,9,Pass
+BF0494,Porosity,9,Rework
+BF0495,Surface Crack,7,Rework
+BF0496,Burr,2,Pass
+BF0497,Burr,7,Rework
+BF0498,Burr,14,Reject
+BF0499,Porosity,30,Reject
+BF0500,Dimensional Error,34,Reject

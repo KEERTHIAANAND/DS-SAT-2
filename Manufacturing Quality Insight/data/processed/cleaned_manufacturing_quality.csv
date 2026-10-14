@@ -1,0 +1,501 @@
+batch,line,shift,quantity,machine,age_band,operating_hours,temperature,pressure,speed,supplier,material_grade,lot,defect_type,defect_count,quality_status,material_match,defect_rate_pct,high_defect_flag,machine_hours_band,temperature_band,process_deviation_score
+BF0001,Line B,Morning,397,M-103,6-8 years,2893.0,186.92,69.94,128.68,Apex Materials,G1,LOT-1202,Surface Crack,8,Pass,True,2.015,0,0-3k,Warm (185-200),1.033
+BF0002,Line B,Morning,314,M-105,9+ years,7330.0,167.17,82.94,103.45,Apex Materials,G3,LOT-1196,Weld Defect,20,Rework,True,6.369,0,6k-9k,Low (<170),2.309
+BF0003,Line D,Morning,349,M-105,9+ years,7464.0,184.9,76.4,111.46,Northstar Metals,G1,LOT-1092,Weld Defect,23,Rework,True,6.59,0,6k-9k,Normal (170-185),0.678
+BF0004,Line A,Morning,280,M-106,6-8 years,5497.0,165.48,75.67,126.09,,,,Weld Defect,13,Rework,False,4.643,0,3k-6k,Low (<170),1.884
+BF0005,Line D,Evening,330,M-101,0-2 years,3226.0,187.32,72.63,107.44,Summit Alloy,G1,LOT-1187,Dimensional Error,9,Pass,True,2.727,0,3k-6k,Warm (185-200),0.581
+BF0006,Line B,Evening,164,M-106,6-8 years,3304.0,157.86,72.74000000000001,123.6,Apex Materials,G2,LOT-1067,Burr,1,Pass,True,0.61,0,3k-6k,Low (<170),2.346
+BF0007,Line B,Evening,339,M-104,0-2 years,3399.0,203.0,77.13,112.8,Apex Materials,G1,LOT-1035,Weld Defect,14,Rework,True,4.13,0,3k-6k,High (>200),1.677
+BF0008,Line A,Morning,292,M-106,6-8 years,4813.0,205.33,78.76,106.07,Northstar Metals,G1,LOT-1245,Burr,30,Reject,True,10.274,1,3k-6k,High (>200),2.052
+BF0009,Line B,Night,261,M-103,6-8 years,3759.0,172.57,76.0,146.26,Summit Alloy,G1,LOT-1229,Porosity,13,Rework,True,4.981,0,3k-6k,Normal (170-185),2.527
+BF0010,Line D,Night,97,M-105,9+ years,7104.0,183.98,63.3,117.61,Crest Industrial,G1,LOT-1078,Porosity,8,Reject,True,8.247,0,6k-9k,Normal (170-185),1.26
+BF0011,Line C,Night,162,M-105,9+ years,7003.0,186.4,79.3,117.61,Summit Alloy,G1,LOT-1146,Burr,15,Reject,True,9.259,0,6k-9k,Warm (185-200),1.066
+BF0012,Line A,Evening,203,M-104,0-2 years,4016.0,196.1,90.5,129.61,Northstar Metals,G2,LOT-1249,Burr,20,Reject,True,9.852,1,3k-6k,Warm (185-200),2.988
+BF0013,Line A,Evening,311,M-106,6-8 years,4089.0,192.3,77.54,103.02,Crest Industrial,G2,LOT-1135,Surface Crack,21,Rework,True,6.752,0,3k-6k,Warm (185-200),1.315
+BF0014,Line C,Night,350,M-106,6-8 years,5656.0,187.53,74.79,117.61,Apex Materials,G2,LOT-1134,Surface Crack,31,Reject,True,8.857,0,3k-6k,Warm (185-200),0.488
+BF0015,Line D,Morning,193,M-101,0-2 years,4601.0,186.84,78.48,120.6,Northstar Metals,G2,LOT-1041,Surface Crack,10,Rework,True,5.181,0,3k-6k,Warm (185-200),1.02
+BF0016,Line C,Evening,211,M-104,0-2 years,4293.0,184.35,81.28,125.09,Apex Materials,G1,LOT-1107,Weld Defect,14,Rework,True,6.635,0,3k-6k,Normal (170-185),1.51
+BF0017,Line B,Morning,289,M-104,0-2 years,4631.0,182.53,83.44,105.31,Apex Materials,G2,LOT-1236,Porosity,8,Pass,True,2.768,0,3k-6k,Normal (170-185),1.787
+BF0018,Line C,Morning,199,M-104,0-2 years,4250.0,186.78,73.13,133.14,Crest Industrial,G1,LOT-1037,Weld Defect,23,Reject,True,11.558,1,3k-6k,Warm (185-200),1.314
+BF0019,Line C,Evening,270,M-102,3-5 years,6434.0,196.5,67.64,120.44,Apex Materials,G2,LOT-1147,Weld Defect,20,Rework,True,7.407,0,6k-9k,Warm (185-200),1.207
+BF0020,Line A,Night,97,M-106,6-8 years,4894.0,181.53,78.05,123.76,Summit Alloy,G2,LOT-1021,Dimensional Error,8,Reject,True,8.247,0,3k-6k,Normal (170-185),1.105
+BF0021,Line B,Night,288,M-103,6-8 years,6210.0,182.51,75.24,120.85,Summit Alloy,G2,LOT-1106,Weld Defect,22,Reject,True,7.639,0,6k-9k,Normal (170-185),0.657
+BF0022,Line A,Night,122,M-105,9+ years,8719.0,186.84,72.83,70.15,Apex Materials,G1,LOT-1241,Dimensional Error,3,Pass,True,2.459,0,6k-9k,Warm (185-200),3.209
+BF0023,Line B,Evening,375,M-104,0-2 years,7019.0,171.25,71.95,112.55,Summit Alloy,G1,LOT-1149,Weld Defect,12,Pass,True,3.2,0,6k-9k,Normal (170-185),1.159
+BF0024,Line A,Morning,146,M-102,3-5 years,6180.0,192.06,59.72,100.47,Crest Industrial,G2,LOT-1045,Porosity,11,Reject,True,7.534,0,6k-9k,Warm (185-200),2.122
+BF0025,Line A,Evening,209,M-102,3-5 years,5730.0,196.73,75.56,121.27,Apex Materials,G2,LOT-1184,Surface Crack,12,Rework,True,5.742,0,3k-6k,Warm (185-200),1.189
+BF0026,Line B,Morning,345,M-103,6-8 years,4512.0,185.63,69.16,112.42,Crest Industrial,G3,LOT-1003,Dimensional Error,24,Rework,True,6.957,0,3k-6k,Warm (185-200),0.449
+BF0027,Line D,Evening,256,M-103,6-8 years,7416.0,175.2,82.75,109.58,Crest Industrial,G1,LOT-1116,Burr,16,Rework,True,6.25,0,6k-9k,Normal (170-185),1.782
+BF0028,Line C,Morning,222,M-105,9+ years,6111.0,189.39,79.8,83.56,Northstar Metals,G1,LOT-1022,Porosity,21,Reject,True,9.459,1,6k-9k,Warm (185-200),2.534
+BF0029,Line D,Night,148,M-104,0-2 years,8404.0,180.21,74.97,117.61,Apex Materials,G3,LOT-1145,Weld Defect,18,Reject,True,12.162,1,6k-9k,Normal (170-185),0.612
+BF0030,Line B,Evening,272,M-106,6-8 years,6051.0,204.56,82.94,101.8,Northstar Metals,G2,LOT-1109,Surface Crack,18,Rework,True,6.618,0,6k-9k,High (>200),2.447
+BF0031,Line C,Morning,329,M-101,0-2 years,9202.0,182.16,60.0,122.31,Summit Alloy,G2,LOT-1010,Burr,27,Reject,True,8.207,0,9k+,Normal (170-185),1.808
+BF0032,Line B,Morning,231,M-102,3-5 years,5820.0,185.21,73.8,122.44,Crest Industrial,G1,LOT-1225,Surface Crack,20,Reject,True,8.658,0,3k-6k,Warm (185-200),0.591
+BF0033,Line C,Evening,297,M-101,0-2 years,6127.0,186.24,80.43,97.93,Summit Alloy,G1,LOT-1007,Dimensional Error,21,Rework,True,7.071,0,6k-9k,Warm (185-200),1.717
+BF0034,Line C,Evening,296,M-103,6-8 years,6722.0,177.98,73.77,118.05,Northstar Metals,G1,LOT-1191,Burr,22,Rework,True,7.432,0,6k-9k,Normal (170-185),0.674
+BF0035,Line D,Night,293,M-103,6-8 years,4888.0,177.32,69.7,124.84,Summit Alloy,G2,LOT-1074,Porosity,19,Rework,True,6.485,0,3k-6k,Normal (170-185),1.006
+BF0036,Line C,Morning,348,M-106,6-8 years,7206.0,210.26,75.68,106.46,Apex Materials,G2,LOT-1194,Surface Crack,56,Reject,True,16.092,1,6k-9k,High (>200),2.254
+BF0037,Line B,Night,329,M-105,9+ years,5690.0,195.82,66.08,133.92,Summit Alloy,G1,LOT-1176,Surface Crack,29,Reject,True,8.815,0,3k-6k,Warm (185-200),1.832
+BF0038,Line A,Night,372,M-103,6-8 years,4993.0,190.01,61.46,122.65,Summit Alloy,G2,LOT-1245,Surface Crack,17,Rework,True,4.57,0,3k-6k,Warm (185-200),1.655
+BF0039,Line C,Evening,394,M-102,3-5 years,8028.0,192.42,73.45,118.63,Crest Industrial,G3,LOT-1196,Dimensional Error,81,Reject,True,20.558,1,6k-9k,Warm (185-200),0.702
+BF0040,Line B,Night,90,M-102,3-5 years,2676.0,195.48,70.81,122.86,Northstar Metals,G1,LOT-1203,Surface Crack,4,Rework,True,4.444,0,0-3k,Warm (185-200),1.052
+BF0041,Line B,Morning,210,M-101,0-2 years,6520.0,182.17,56.79,110.83,Crest Industrial,G3,LOT-1152,Surface Crack,11,Rework,True,5.238,0,6k-9k,Normal (170-185),2.206
+BF0042,Line B,Evening,188,M-106,6-8 years,5094.0,178.31,79.5,108.49,Northstar Metals,G1,LOT-1240,Porosity,9,Rework,True,4.787,0,3k-6k,Normal (170-185),1.294
+BF0043,Line A,Morning,155,M-103,6-8 years,7620.0,177.47,66.62,101.95,Crest Industrial,G1,LOT-1029,Porosity,7,Rework,True,4.516,0,6k-9k,Normal (170-185),1.361
+BF0044,Line A,Evening,180,M-102,3-5 years,8230.0,185.02,79.45,134.66,Northstar Metals,G2,LOT-1132,Surface Crack,8,Rework,True,4.444,0,6k-9k,Warm (185-200),1.762
+BF0045,Line C,Morning,255,M-101,0-2 years,7233.0,199.95,76.45,149.78,Northstar Metals,G1,LOT-1188,Dimensional Error,39,Reject,True,15.294,1,6k-9k,Warm (185-200),2.851
+BF0046,Line D,Evening,142,M-103,6-8 years,8820.0,181.6,64.81,119.81,Summit Alloy,G1,LOT-1217,Surface Crack,5,Rework,True,3.521,0,6k-9k,Normal (170-185),1.12
+BF0047,Line D,Night,385,M-102,3-5 years,4511.0,186.84,89.89,125.78,Northstar Metals,G3,LOT-1069,Porosity,45,Reject,True,11.688,1,3k-6k,Warm (185-200),2.674
+BF0048,Line B,Morning,225,M-105,9+ years,8719.0,184.05,77.16,135.03,Apex Materials,G3,LOT-1039,Porosity,26,Reject,True,11.556,1,6k-9k,Normal (170-185),1.611
+BF0049,Line A,Night,255,M-105,9+ years,3322.0,183.43,65.19,101.08,Apex Materials,G1,LOT-1188,Dimensional Error,11,Rework,True,4.314,0,3k-6k,Normal (170-185),1.397
+BF0050,Line A,Morning,288,M-104,0-2 years,4373.0,195.07,78.86,111.52,Northstar Metals,G1,LOT-1165,Porosity,10,Pass,True,3.472,0,3k-6k,Warm (185-200),1.314
+BF0051,Line C,Evening,327,M-103,6-8 years,3831.0,191.94,73.81,160.98,Crest Industrial,G1,LOT-1214,Surface Crack,48,Reject,True,14.679,1,3k-6k,Warm (185-200),3.345
+BF0052,Line D,Evening,217,M-104,0-2 years,3727.0,165.03,72.01,108.74,Summit Alloy,G1,LOT-1181,Weld Defect,8,Rework,True,3.687,0,3k-6k,Low (<170),1.723
+BF0053,Line B,Evening,93,M-101,0-2 years,3486.0,193.78,70.66,105.81,Summit Alloy,G3,LOT-1160,Weld Defect,7,Reject,True,7.527,0,3k-6k,Warm (185-200),1.001
+BF0054,Line B,Morning,213,M-103,6-8 years,5425.0,193.64,67.37,103.61,Crest Industrial,G2,LOT-1080,Dimensional Error,15,Rework,True,7.042,0,3k-6k,Warm (185-200),1.272
+BF0055,Line A,Morning,386,M-103,6-8 years,6938.0,182.52,67.73,122.12,Crest Industrial,G1,LOT-1082,Surface Crack,28,Rework,True,7.254,0,6k-9k,Normal (170-185),0.821
+BF0056,Line D,Evening,270,M-106,6-8 years,5026.0,219.1,68.04,146.31,Apex Materials,G1,LOT-1246,Porosity,45,Reject,True,16.667,1,3k-6k,High (>200),3.66
+BF0057,Line C,Morning,207,M-102,3-5 years,4198.0,197.89,68.5,125.63,,,,Surface Crack,12,Rework,False,5.797,0,3k-6k,Warm (185-200),1.407
+BF0058,Line A,Evening,292,M-103,6-8 years,4186.0,185.83,75.79,108.33,Summit Alloy,G1,LOT-1126,Surface Crack,11,Rework,True,3.767,0,3k-6k,Warm (185-200),0.725
+BF0059,Line B,Night,133,M-102,3-5 years,400.0,182.59,69.0,110.1,Northstar Metals,G1,LOT-1133,Weld Defect,2,Pass,True,1.504,0,0-3k,Normal (170-185),0.589
+BF0060,Line C,Evening,90,M-106,6-8 years,2547.0,206.14,72.74000000000001,127.81,Summit Alloy,G1,LOT-1001,Surface Crack,9,Reject,True,10.0,1,0-3k,High (>200),1.988
+BF0061,Line C,Morning,305,M-105,9+ years,5295.0,196.03,70.67,124.57,Apex Materials,G1,LOT-1009,Surface Crack,21,Rework,True,6.885,0,3k-6k,Warm (185-200),1.161
+BF0062,Line A,Night,142,M-104,0-2 years,8568.0,186.84,82.02,143.39,Apex Materials,G2,LOT-1111,Dimensional Error,15,Reject,True,10.563,1,6k-9k,Warm (185-200),2.487
+BF0063,Line C,Morning,107,M-105,9+ years,3889.0,205.21,71.2,87.27,Northstar Metals,G1,LOT-1098,Surface Crack,5,Rework,True,4.673,0,3k-6k,High (>200),2.602
+BF0064,Line B,Morning,101,M-103,6-8 years,3525.0,186.84,56.18,120.97,Summit Alloy,G3,LOT-1001,No Defect,0,Pass,True,0.0,0,3k-6k,Warm (185-200),2.305
+BF0065,Line C,Evening,111,M-103,6-8 years,4308.0,195.58,75.29,131.99,Apex Materials,G1,LOT-1172,Burr,8,Rework,True,7.207,0,3k-6k,Warm (185-200),1.572
+BF0066,Line A,Morning,303,M-105,9+ years,6535.0,168.47,70.2,126.86,Apex Materials,G2,LOT-1211,Weld Defect,12,Rework,True,3.96,0,6k-9k,Low (<170),1.637
+BF0067,Line B,Night,387,M-102,3-5 years,5983.0,164.74,61.69,115.81,Crest Industrial,G2,LOT-1111,Dimensional Error,22,Rework,True,5.685,0,3k-6k,Low (<170),2.241
+BF0068,Line B,Evening,144,M-106,6-8 years,1723.0,172.61,63.64,117.05,Apex Materials,G1,LOT-1181,Weld Defect,7,Rework,True,4.861,0,0-3k,Normal (170-185),1.586
+BF0069,Line B,Night,340,M-101,0-2 years,3054.0,178.42,67.36,106.68,Crest Industrial,G2,LOT-1010,Surface Crack,18,Rework,True,5.294,0,3k-6k,Normal (170-185),1.046
+BF0070,Line B,Morning,316,M-106,6-8 years,3434.0,182.31,68.19,142.82,Crest Industrial,G2,LOT-1214,Burr,17,Rework,True,5.38,0,3k-6k,Normal (170-185),2.072
+BF0071,Line B,Morning,231,M-106,6-8 years,8348.0,173.99,80.2,158.45,Apex Materials,G1,LOT-1211,Dimensional Error,19,Reject,True,8.225,0,6k-9k,Normal (170-185),3.442
+BF0072,Line D,Morning,304,M-105,9+ years,6988.0,174.85,72.7,97.38,Northstar Metals,G3,LOT-1187,Porosity,9,Pass,True,2.961,0,6k-9k,Normal (170-185),1.52
+BF0073,Line B,Evening,290,M-106,6-8 years,5604.0,164.64,88.84,126.74,Northstar Metals,G1,LOT-1053,Weld Defect,5,Pass,True,1.724,0,3k-6k,Low (<170),3.061
+BF0074,Line A,Morning,384,M-106,6-8 years,5448.0,189.04,74.33,110.93,Northstar Metals,G1,LOT-1247,Dimensional Error,9,Pass,True,2.344,0,3k-6k,Warm (185-200),0.556
+BF0075,Line D,Night,246,M-103,6-8 years,5033.0,178.44,72.5,94.47,Northstar Metals,G2,LOT-1218,Burr,9,Rework,True,3.659,0,3k-6k,Normal (170-185),1.567
+BF0076,Line A,Night,123,M-104,0-2 years,2171.0,175.53,92.61,119.65,Northstar Metals,G3,LOT-1203,Weld Defect,5,Rework,True,4.065,0,0-3k,Normal (170-185),3.066
+BF0077,Line A,Evening,93,M-104,0-2 years,2764.0,178.45,77.09,125.73,Apex Materials,G2,LOT-1126,Burr,2,Pass,True,2.151,0,0-3k,Normal (170-185),1.189
+BF0078,Line B,Night,366,M-103,6-8 years,6012.0,187.51,90.26,153.89,Northstar Metals,G2,LOT-1082,Burr,49,Reject,True,13.388,1,6k-9k,Warm (185-200),3.816
+BF0079,Line A,Night,282,M-103,6-8 years,4551.0,214.98,64.27,107.85,Summit Alloy,G1,LOT-1061,Surface Crack,17,Rework,True,6.028,0,3k-6k,High (>200),2.779
+BF0080,Line B,Evening,92,M-106,6-8 years,6782.0,184.38,71.85,105.52,Apex Materials,G1,LOT-1009,Burr,2,Pass,True,2.174,0,6k-9k,Normal (170-185),0.679
+BF0081,Line A,Morning,192,M-106,6-8 years,8313.0,169.69,71.91,102.14,Summit Alloy,G2,LOT-1143,Burr,7,Rework,True,3.646,0,6k-9k,Low (<170),1.572
+BF0082,Line B,Night,290,M-101,0-2 years,4561.0,191.37,73.49,111.82,Summit Alloy,G3,LOT-1158,Dimensional Error,19,Rework,True,6.552,0,3k-6k,Warm (185-200),0.615
+BF0083,Line B,Morning,93,M-104,0-2 years,4848.0,180.27,83.78,137.89,Apex Materials,G1,LOT-1062,Porosity,5,Rework,True,5.376,0,3k-6k,Normal (170-185),2.379
+BF0084,Line D,Night,392,M-102,3-5 years,4125.0,166.35,64.61,85.31,Apex Materials,G1,LOT-1109,Surface Crack,8,Pass,True,2.041,0,3k-6k,Low (<170),2.833
+BF0085,Line A,Evening,134,M-101,0-2 years,7364.0,178.76,70.41,114.7,Apex Materials,G1,LOT-1091,Burr,7,Rework,True,5.224,0,6k-9k,Normal (170-185),0.568
+BF0086,Line D,Morning,139,M-105,9+ years,5407.0,196.27,74.62,89.61,Apex Materials,G1,LOT-1085,Surface Crack,6,Rework,True,4.317,0,3k-6k,Warm (185-200),2.076
+BF0087,Line D,Night,207,M-106,6-8 years,4836.0,174.44,78.8,124.5,Northstar Metals,G2,LOT-1186,Surface Crack,14,Rework,True,6.763,0,3k-6k,Normal (170-185),1.476
+BF0088,Line B,Morning,290,M-101,0-2 years,2936.0,186.84,74.96,119.95,Northstar Metals,G1,LOT-1138,Burr,3,Pass,True,1.034,0,0-3k,Warm (185-200),0.572
+BF0089,Line A,Morning,367,M-102,3-5 years,6779.0,185.16,79.71,99.85,Summit Alloy,G1,LOT-1021,Dimensional Error,18,Rework,True,4.905,0,6k-9k,Warm (185-200),1.544
+BF0090,Line C,Morning,116,M-103,6-8 years,7548.0,174.75,70.07,93.88,Northstar Metals,G3,LOT-1026,Burr,10,Reject,True,8.621,0,6k-9k,Normal (170-185),1.755
+BF0091,Line D,Night,222,M-104,0-2 years,5919.0,182.27,67.55,118.19,Apex Materials,G3,LOT-1061,Surface Crack,20,Reject,True,9.009,0,3k-6k,Normal (170-185),0.713
+BF0092,Line C,Evening,369,M-101,0-2 years,5185.0,183.62,72.34,118.47,Crest Industrial,G3,LOT-1176,Dimensional Error,39,Reject,True,10.569,1,3k-6k,Normal (170-185),0.278
+BF0093,Line D,Evening,189,M-101,0-2 years,400.0,174.82,72.74000000000001,132.87,Apex Materials,G3,LOT-1174,Surface Crack,6,Pass,True,3.175,0,0-3k,Normal (170-185),1.536
+BF0094,Line C,Evening,310,M-102,3-5 years,4309.0,210.76,70.77,143.69,Crest Industrial,G1,LOT-1098,Surface Crack,47,Reject,True,15.161,1,3k-6k,High (>200),2.973
+BF0095,Line B,Night,330,M-106,6-8 years,6481.0,200.53,67.86,144.62,Northstar Metals,G3,LOT-1067,Dimensional Error,40,Reject,True,12.121,1,6k-9k,High (>200),2.55
+BF0096,Line C,Morning,351,M-101,0-2 years,8154.0,191.73,75.65,115.4,Crest Industrial,G1,LOT-1101,Weld Defect,47,Reject,True,13.39,1,6k-9k,Warm (185-200),0.766
+BF0097,Line A,Evening,398,M-105,9+ years,2768.0,186.97,67.28,103.91,Crest Industrial,G2,LOT-1116,Dimensional Error,16,Rework,True,4.02,0,0-3k,Warm (185-200),1.053
+BF0098,Line D,Morning,357,M-102,3-5 years,3967.0,177.74,68.8,117.61,Northstar Metals,G2,LOT-1103,Dimensional Error,18,Rework,True,5.042,0,3k-6k,Normal (170-185),0.781
+BF0099,Line A,Morning,229,M-102,3-5 years,6225.0,192.95,60.52,122.41,Summit Alloy,G2,LOT-1165,Weld Defect,9,Rework,True,3.93,0,6k-9k,Warm (185-200),1.846
+BF0100,Line B,Morning,285,M-103,6-8 years,5696.0,186.73,74.36,142.99,Apex Materials,G1,LOT-1054,Weld Defect,11,Rework,True,3.86,0,3k-6k,Warm (185-200),2.033
+BF0101,Line D,Evening,117,M-105,9+ years,4050.0,186.69,67.32,117.61,Summit Alloy,G2,LOT-1127,Dimensional Error,2,Pass,True,1.709,0,3k-6k,Warm (185-200),0.708
+BF0102,Line B,Morning,349,M-105,9+ years,4248.0,177.05,72.74000000000001,103.28,Summit Alloy,G3,LOT-1240,Surface Crack,9,Pass,True,2.579,0,3k-6k,Normal (170-185),1.073
+BF0103,Line B,Morning,218,M-106,6-8 years,5519.0,175.31,70.6,123.56,Apex Materials,G2,LOT-1138,Porosity,2,Pass,True,0.917,0,3k-6k,Normal (170-185),1.032
+BF0104,Line B,Night,163,M-102,3-5 years,6386.0,166.78,78.22,111.12,Summit Alloy,G2,LOT-1144,Dimensional Error,6,Rework,True,3.681,0,6k-9k,Low (<170),1.781
+BF0105,Line C,Evening,287,M-106,6-8 years,4304.0,206.01,71.99,110.06,Crest Industrial,G2,LOT-1235,Surface Crack,40,Reject,True,13.937,1,3k-6k,High (>200),1.786
+BF0106,Line D,Morning,177,M-103,6-8 years,5945.0,200.29,78.18,119.9,Summit Alloy,G2,LOT-1077,Burr,18,Reject,True,10.169,1,3k-6k,High (>200),1.589
+BF0107,Line B,Evening,361,M-104,0-2 years,4283.0,180.89,70.88,116.28,Summit Alloy,G1,LOT-1222,Burr,16,Rework,True,4.432,0,3k-6k,Normal (170-185),0.389
+BF0108,Line A,Evening,192,M-104,0-2 years,4345.0,191.59,72.83,104.01,Summit Alloy,G2,LOT-1227,Surface Crack,3,Pass,True,1.562,0,3k-6k,Warm (185-200),0.965
+BF0109,Line C,Night,393,M-105,9+ years,7403.0,191.64,69.71,90.13,Summit Alloy,G2,LOT-1094,Surface Crack,37,Reject,True,9.415,1,6k-9k,Warm (185-200),1.889
+BF0110,Line B,Morning,237,M-103,6-8 years,5398.0,184.87,67.74,110.33,Crest Industrial,G2,LOT-1024,Surface Crack,10,Rework,True,4.219,0,3k-6k,Normal (170-185),0.694
+BF0111,Line C,Morning,356,M-105,9+ years,7648.0,196.89,62.85,106.31,Summit Alloy,G1,LOT-1170,Burr,32,Reject,True,8.989,0,6k-9k,Warm (185-200),1.754
+BF0112,Line C,Morning,80,M-104,0-2 years,1037.0,184.44,85.72,121.47,Crest Industrial,G1,LOT-1018,Dimensional Error,8,Reject,True,10.0,1,0-3k,Normal (170-185),2.014
+BF0113,Line D,Morning,288,M-101,0-2 years,7745.0,163.98,74.38,116.41,Summit Alloy,G3,LOT-1147,Porosity,18,Rework,True,6.25,0,6k-9k,Low (<170),1.787
+BF0114,Line D,Morning,400,M-102,3-5 years,5430.0,181.67,73.79,105.01,Northstar Metals,G3,LOT-1103,Porosity,24,Rework,True,6.0,0,3k-6k,Normal (170-185),0.807
+BF0115,Line B,Evening,143,M-104,0-2 years,2895.0,201.25,74.66,130.27,Crest Industrial,G3,LOT-1210,Porosity,10,Rework,True,6.993,0,0-3k,High (>200),1.78
+BF0116,Line D,Evening,348,M-106,6-8 years,4912.0,193.37,72.35,95.47,Apex Materials,G3,LOT-1083,Porosity,20,Rework,True,5.747,0,3k-6k,Warm (185-200),1.56
+BF0117,Line C,Evening,373,M-104,0-2 years,6630.0,186.52,73.03,129.58,Crest Industrial,G2,LOT-1017,Weld Defect,35,Reject,True,9.383,0,6k-9k,Warm (185-200),1.059
+BF0118,Line C,Night,382,M-105,9+ years,5924.0,191.35,68.82,107.48,Northstar Metals,G2,LOT-1089,Dimensional Error,34,Reject,True,8.901,0,3k-6k,Warm (185-200),0.88
+BF0119,Line B,Evening,126,M-102,3-5 years,5507.0,207.06,63.88,116.74,Summit Alloy,G1,LOT-1151,Surface Crack,12,Reject,True,9.524,1,3k-6k,High (>200),2.177
+BF0120,Line D,Morning,228,M-104,0-2 years,5735.0,178.5,60.65,120.88,Apex Materials,G2,LOT-1243,Burr,7,Pass,True,3.07,0,3k-6k,Normal (170-185),1.76
+BF0121,Line D,Evening,243,M-105,9+ years,6347.0,189.7,75.78,99.41,Crest Industrial,G3,LOT-1063,Porosity,23,Reject,True,9.465,1,6k-9k,Warm (185-200),1.298
+BF0122,Line A,Night,236,M-104,0-2 years,5240.0,199.77,72.96,101.34,Northstar Metals,G1,LOT-1122,Surface Crack,11,Rework,True,4.661,0,3k-6k,Warm (185-200),1.577
+BF0123,Line A,Morning,309,M-103,6-8 years,4822.0,184.65,82.32,138.72,Summit Alloy,G3,LOT-1074,Burr,27,Reject,True,8.738,0,3k-6k,Normal (170-185),2.246
+BF0124,Line C,Morning,358,M-102,3-5 years,6462.0,196.8,63.16,134.11,Apex Materials,G2,LOT-1088,Surface Crack,27,Reject,True,7.542,0,6k-9k,Warm (185-200),2.104
+BF0125,Line C,Night,302,M-102,3-5 years,6019.0,180.75,67.26,89.69,Summit Alloy,G1,LOT-1232,Dimensional Error,15,Rework,True,4.967,0,6k-9k,Normal (170-185),1.963
+BF0126,Line C,Night,161,M-104,0-2 years,6680.0,190.41,68.72,126.9,Northstar Metals,G1,LOT-1133,Burr,18,Reject,True,11.18,1,6k-9k,Warm (185-200),1.07
+BF0127,Line A,Morning,310,M-103,6-8 years,6695.0,158.35,71.2,117.61,Summit Alloy,G3,LOT-1037,Weld Defect,8,Pass,True,2.581,0,6k-9k,Low (<170),2.232
+BF0128,Line B,Evening,85,M-103,6-8 years,2876.0,202.54,77.17,124.62,Summit Alloy,G2,LOT-1041,Weld Defect,5,Rework,True,5.882,0,0-3k,High (>200),1.776
+BF0129,Line B,Morning,288,M-106,6-8 years,5858.0,179.79,72.74000000000001,80.64,Apex Materials,G1,LOT-1130,Weld Defect,15,Rework,True,5.208,0,3k-6k,Normal (170-185),2.495
+BF0130,Line C,Night,278,M-105,9+ years,6060.0,208.24,76.43,116.98,Summit Alloy,G2,LOT-1142,Weld Defect,47,Reject,True,16.906,1,6k-9k,High (>200),2.042
+BF0131,Line C,Evening,227,M-101,0-2 years,8474.0,191.69,72.74000000000001,117.05,Summit Alloy,G1,LOT-1220,Dimensional Error,19,Reject,True,8.37,0,6k-9k,Warm (185-200),0.586
+BF0132,Line D,Morning,208,M-103,6-8 years,4623.0,203.77,69.04,104.77,Summit Alloy,G1,LOT-1092,Surface Crack,17,Reject,True,8.173,0,3k-6k,High (>200),1.777
+BF0133,Line B,Morning,385,M-104,0-2 years,5023.0,192.97,60.41,121.35,Northstar Metals,G3,LOT-1149,Dimensional Error,18,Rework,True,4.675,0,3k-6k,Warm (185-200),1.841
+BF0134,Line B,Night,152,M-106,6-8 years,7609.0,186.84,72.74000000000001,115.23,Northstar Metals,G3,LOT-1153,Weld Defect,15,Reject,True,9.868,1,6k-9k,Warm (185-200),0.187
+BF0135,Line B,Morning,117,M-105,9+ years,5743.0,206.91,72.74000000000001,110.32,Summit Alloy,G3,LOT-1096,Weld Defect,7,Rework,True,5.983,0,3k-6k,High (>200),1.859
+BF0136,Line D,Night,350,M-101,0-2 years,5661.0,207.72,80.19,122.46,Apex Materials,G3,LOT-1073,Porosity,68,Reject,True,19.429,1,3k-6k,High (>200),2.289
+BF0137,Line A,Evening,312,M-106,6-8 years,2683.0,189.6,67.97,87.05,Crest Industrial,G1,LOT-1163,Dimensional Error,11,Rework,True,3.526,0,0-3k,Warm (185-200),2.113
+BF0138,Line C,Night,324,M-103,6-8 years,6683.0,185.17,80.04,127.41,Crest Industrial,G2,LOT-1037,Porosity,65,Reject,True,20.062,1,6k-9k,Warm (185-200),1.451
+BF0139,Line B,Evening,362,M-101,0-2 years,3526.0,184.21,72.78,139.38,Northstar Metals,G2,LOT-1083,Surface Crack,13,Rework,True,3.591,0,3k-6k,Normal (170-185),1.746
+BF0140,Line C,Evening,309,M-104,0-2 years,3760.0,199.55,62.1,124.74,Apex Materials,G1,LOT-1069,Burr,22,Rework,True,7.12,0,3k-6k,Warm (185-200),1.989
+BF0141,Line D,Morning,286,M-104,0-2 years,1839.0,180.37,84.1,115.2,Crest Industrial,G2,LOT-1200,Surface Crack,19,Rework,True,6.643,0,0-3k,Normal (170-185),1.771
+BF0142,Line B,Night,242,M-102,3-5 years,7028.0,174.78,74.91,133.93,Summit Alloy,G1,LOT-1220,Burr,12,Rework,True,4.959,0,6k-9k,Normal (170-185),1.651
+BF0143,Line B,Night,341,M-106,6-8 years,4504.0,186.84,73.36,91.67,Crest Industrial,G2,LOT-1002,Dimensional Error,20,Rework,True,5.865,0,3k-6k,Warm (185-200),1.685
+BF0144,Line B,Morning,348,M-102,3-5 years,3889.0,192.46,68.94,125.23,Northstar Metals,G3,LOT-1142,Surface Crack,20,Rework,True,5.747,0,3k-6k,Warm (185-200),1.054
+BF0145,Line A,Evening,222,M-104,0-2 years,6077.0,159.68,61.1,134.2,Northstar Metals,G1,LOT-1023,Dimensional Error,5,Pass,True,2.252,0,6k-9k,Low (<170),2.959
+BF0146,Line B,Evening,244,M-101,0-2 years,4060.0,186.25,63.51,142.13,Crest Industrial,G2,LOT-1087,Dimensional Error,20,Reject,True,8.197,0,3k-6k,Warm (185-200),2.288
+BF0147,Line B,Evening,190,M-101,0-2 years,903.0,178.6,82.58,125.59,Crest Industrial,G2,LOT-1121,Dimensional Error,3,Pass,True,1.579,0,0-3k,Normal (170-185),1.772
+BF0148,Line A,Morning,91,M-102,3-5 years,5689.0,172.37,72.03,115.48,Apex Materials,G2,LOT-1002,Surface Crack,3,Pass,True,3.297,0,3k-6k,Normal (170-185),1.053
+BF0149,Line A,Night,326,M-103,6-8 years,5480.0,202.35,77.64,132.78,Summit Alloy,G2,LOT-1135,Burr,42,Reject,True,12.883,1,3k-6k,High (>200),2.086
+BF0150,Line D,Morning,265,M-106,6-8 years,5090.0,190.96,69.15,83.73,Northstar Metals,G1,LOT-1209,Surface Crack,9,Pass,True,3.396,0,3k-6k,Warm (185-200),2.324
+BF0151,Line A,Night,397,M-104,0-2 years,8457.0,177.44,63.09,121.96,Summit Alloy,G2,LOT-1070,Surface Crack,32,Reject,True,8.06,0,6k-9k,Normal (170-185),1.505
+BF0152,Line C,Night,168,M-103,6-8 years,5290.0,198.28,82.99,117.61,Crest Industrial,G3,LOT-1123,Dimensional Error,29,Reject,True,17.262,1,3k-6k,Warm (185-200),1.93
+BF0153,Line C,Morning,368,M-106,6-8 years,4336.0,186.84,85.86,82.46,Northstar Metals,G1,LOT-1246,Porosity,21,Rework,True,5.707,0,3k-6k,Warm (185-200),3.057
+BF0154,Line B,Night,368,M-103,6-8 years,4820.0,173.6,71.06,128.12,Crest Industrial,G2,LOT-1004,Burr,19,Rework,True,5.163,0,3k-6k,Normal (170-185),1.341
+BF0155,Line C,Night,182,M-101,0-2 years,5716.0,204.91,83.83,129.14,Summit Alloy,G1,LOT-1083,Weld Defect,35,Reject,True,19.231,1,3k-6k,High (>200),2.575
+BF0156,Line D,Night,348,M-103,6-8 years,2682.0,198.02,72.11,96.28,Apex Materials,G3,LOT-1082,Surface Crack,12,Pass,True,3.448,0,0-3k,Warm (185-200),1.722
+BF0157,Line D,Evening,348,M-106,6-8 years,3593.0,191.2,64.65,131.87,Summit Alloy,G2,LOT-1061,Surface Crack,16,Rework,True,4.598,0,3k-6k,Warm (185-200),1.68
+BF0158,Line C,Night,174,M-106,6-8 years,7120.0,192.83,70.18,101.77,Summit Alloy,G1,LOT-1126,Surface Crack,15,Reject,True,8.621,0,6k-9k,Warm (185-200),1.177
+BF0159,Line B,Evening,130,M-103,6-8 years,6298.0,188.34,85.69,125.9,Apex Materials,G3,LOT-1176,Surface Crack,9,Rework,True,6.923,0,6k-9k,Warm (185-200),2.123
+BF0160,Line A,Evening,333,M-106,6-8 years,3627.0,174.45,65.37,121.84,Crest Industrial,G1,LOT-1227,Dimensional Error,9,Pass,True,2.703,0,3k-6k,Normal (170-185),1.382
+BF0161,Line C,Evening,148,M-102,3-5 years,4818.0,197.76,77.74,88.24,Apex Materials,G3,LOT-1163,Surface Crack,6,Rework,True,4.054,0,3k-6k,Warm (185-200),2.336
+BF0162,Line D,Night,373,M-103,6-8 years,4411.0,183.74,66.44,117.61,Crest Industrial,G1,LOT-1244,Burr,33,Reject,True,8.847,0,3k-6k,Normal (170-185),0.823
+BF0163,Line A,Morning,304,M-103,6-8 years,4395.0,196.17,69.98,107.36,Summit Alloy,G1,LOT-1236,Dimensional Error,16,Rework,True,5.263,0,3k-6k,Warm (185-200),1.117
+BF0164,Line B,Evening,384,M-105,9+ years,7800.0,170.91,66.05,109.75,Apex Materials,G1,LOT-1008,Weld Defect,9,Pass,True,2.344,0,6k-9k,Normal (170-185),1.497
+BF0165,Line B,Morning,103,M-103,6-8 years,4099.0,180.14,76.44,140.06,Summit Alloy,G2,LOT-1125,No Defect,0,Pass,True,0.0,0,3k-6k,Normal (170-185),1.942
+BF0166,Line A,Morning,166,M-105,9+ years,5658.0,200.05,65.41,117.41,Apex Materials,G1,LOT-1238,Burr,13,Reject,True,7.831,0,3k-6k,High (>200),1.578
+BF0167,Line C,Morning,258,M-101,0-2 years,5331.0,178.29,56.35,144.18,Summit Alloy,G2,LOT-1181,Weld Defect,16,Rework,True,6.202,0,3k-6k,Normal (170-185),3.107
+BF0168,Line A,Morning,400,M-104,0-2 years,3887.0,191.11,82.81,129.86,Crest Industrial,G3,LOT-1237,Surface Crack,43,Reject,True,10.75,1,3k-6k,Warm (185-200),1.942
+BF0169,Line A,Evening,176,M-105,9+ years,6398.0,185.32,62.99,95.59,Apex Materials,G2,LOT-1120,Weld Defect,4,Pass,True,2.273,0,6k-9k,Warm (185-200),1.892
+BF0170,Line D,Evening,347,M-102,3-5 years,2814.0,178.63,58.47,134.79,Crest Industrial,G1,LOT-1228,Surface Crack,11,Pass,True,3.17,0,0-3k,Normal (170-185),2.453
+BF0171,Line D,Morning,340,M-102,3-5 years,6105.0,178.77,62.49,103.4,Apex Materials,G3,LOT-1047,Porosity,7,Pass,True,2.059,0,6k-9k,Normal (170-185),1.674
+BF0172,Line D,Morning,112,M-104,0-2 years,4937.0,206.09,79.87,112.97,Crest Industrial,G1,LOT-1145,Surface Crack,14,Reject,True,12.5,1,3k-6k,High (>200),2.091
+BF0173,Line A,Evening,310,M-105,9+ years,5339.0,169.83,75.23,129.28,Summit Alloy,G3,LOT-1074,Burr,16,Rework,True,5.161,0,3k-6k,Low (<170),1.689
+BF0174,Line C,Morning,219,M-105,9+ years,1697.0,184.2,69.86,138.03,Crest Industrial,G1,LOT-1040,Surface Crack,12,Rework,True,5.479,0,0-3k,Normal (170-185),1.674
+BF0175,Line C,Night,328,M-104,0-2 years,5538.0,209.97,77.22,134.64,Crest Industrial,G1,LOT-1181,Burr,96,Reject,True,29.268,1,3k-6k,High (>200),2.618
+BF0176,Line C,Evening,119,M-103,6-8 years,3748.0,168.78,66.08,127.18,Northstar Metals,G2,LOT-1091,Surface Crack,6,Rework,True,5.042,0,3k-6k,Low (<170),1.816
+BF0177,Line A,Night,362,M-106,6-8 years,3882.0,198.94,82.55,97.32,Apex Materials,G2,LOT-1079,Porosity,37,Reject,True,10.221,1,3k-6k,Warm (185-200),2.284
+BF0178,Line C,Morning,110,M-103,6-8 years,4974.0,199.44,75.84,108.4,Apex Materials,G2,LOT-1044,Surface Crack,11,Reject,True,10.0,1,3k-6k,Warm (185-200),1.404
+BF0179,Line C,Night,203,M-103,6-8 years,4637.0,183.07,76.45,145.65,Summit Alloy,G2,LOT-1043,Burr,25,Reject,True,12.315,1,3k-6k,Normal (170-185),2.285
+BF0180,Line D,Night,131,M-101,0-2 years,7039.0,197.21,77.21,101.76,Crest Industrial,G1,LOT-1033,Surface Crack,20,Reject,True,15.267,1,6k-9k,Warm (185-200),1.576
+BF0181,Line C,Evening,139,M-104,0-2 years,3522.0,196.87,77.7,117.3,Northstar Metals,G3,LOT-1191,Dimensional Error,17,Reject,True,12.23,1,3k-6k,Warm (185-200),1.292
+BF0182,Line D,Morning,235,M-103,6-8 years,4312.0,163.02,78.18,109.32,Summit Alloy,G3,LOT-1107,Burr,10,Rework,True,4.255,0,3k-6k,Low (<170),2.073
+BF0183,Line A,Evening,273,M-106,6-8 years,5313.0,209.6,74.39,124.67,Northstar Metals,G3,LOT-1173,Porosity,26,Reject,True,9.524,1,3k-6k,High (>200),2.19
+BF0184,Line C,Night,271,M-102,3-5 years,8114.0,186.84,65.39,116.55,Apex Materials,G2,LOT-1151,Surface Crack,43,Reject,True,15.867,1,6k-9k,Warm (185-200),0.963
+BF0185,Line C,Evening,129,M-106,6-8 years,8221.0,197.5,72.74000000000001,118.38,Northstar Metals,G1,LOT-1225,Dimensional Error,17,Reject,True,13.178,1,6k-9k,Warm (185-200),1.074
+BF0186,Line A,Night,93,M-103,6-8 years,7228.0,169.02,69.15,101.04,Crest Industrial,G1,LOT-1142,Dimensional Error,8,Reject,True,8.602,0,6k-9k,Low (<170),1.713
+BF0187,Line B,Morning,280,M-103,6-8 years,1504.0,191.43,71.89,133.77,Apex Materials,G1,LOT-1171,Surface Crack,6,Pass,True,2.143,0,0-3k,Warm (185-200),1.444
+BF0188,Line C,Evening,85,M-105,9+ years,2201.0,169.95,79.02,111.49,Apex Materials,G2,LOT-1124,Surface Crack,1,Pass,True,1.176,0,0-3k,Low (<170),1.625
+BF0189,Line A,Evening,336,M-104,0-2 years,5436.0,193.59,65.25,113.22,Apex Materials,G2,LOT-1226,Surface Crack,9,Pass,True,2.679,0,3k-6k,Warm (185-200),1.208
+BF0190,Line D,Evening,201,M-104,0-2 years,7207.0,209.72,72.74000000000001,105.34,Summit Alloy,G1,LOT-1035,Burr,27,Reject,True,13.433,1,6k-9k,High (>200),2.175
+BF0191,Line D,Night,342,M-106,6-8 years,7643.0,182.7,74.29,99.9,Northstar Metals,G1,LOT-1168,Porosity,16,Rework,True,4.678,0,6k-9k,Normal (170-185),1.143
+BF0192,Line D,Morning,173,M-104,0-2 years,6905.0,167.43,69.58,113.88,Crest Industrial,G1,LOT-1222,Dimensional Error,7,Rework,True,4.046,0,6k-9k,Low (<170),1.507
+BF0193,Line B,Night,330,M-104,0-2 years,3895.0,158.29,71.53,122.75,Summit Alloy,G1,LOT-1219,Surface Crack,6,Pass,True,1.818,0,3k-6k,Low (<170),2.295
+BF0194,Line B,Morning,118,M-106,6-8 years,4545.0,175.77,78.39,107.79,Apex Materials,G2,LOT-1034,Surface Crack,1,Pass,True,0.847,0,3k-6k,Normal (170-185),1.3
+BF0195,Line C,Night,225,M-104,0-2 years,4929.0,198.74,77.56,128.99,Crest Industrial,G2,LOT-1132,Porosity,54,Reject,True,24.0,1,3k-6k,Warm (185-200),1.715
+BF0196,Line A,Morning,393,M-103,6-8 years,2368.0,189.59,84.86,94.8,Summit Alloy,G1,LOT-1163,Porosity,11,Pass,True,2.799,0,0-3k,Warm (185-200),2.367
+BF0197,Line B,Night,101,M-103,6-8 years,6745.0,219.46,80.43,142.93,Crest Industrial,G1,LOT-1205,Dimensional Error,29,Reject,True,28.713,1,6k-9k,High (>200),3.698
+BF0198,Line B,Evening,256,M-106,6-8 years,3432.0,195.52,68.84,135.52,Summit Alloy,G1,LOT-1113,Dimensional Error,13,Rework,True,5.078,0,3k-6k,Warm (185-200),1.767
+BF0199,Line B,Night,146,M-103,6-8 years,1649.0,192.94,56.41,127.08,Northstar Metals,G2,LOT-1042,Porosity,6,Rework,True,4.11,0,0-3k,Warm (185-200),2.478
+BF0200,Line C,Evening,111,M-106,6-8 years,3695.0,199.15,62.7,118.12,Summit Alloy,G1,LOT-1179,Weld Defect,4,Rework,True,3.604,0,3k-6k,Warm (185-200),1.79
+BF0201,Line D,Morning,329,M-102,3-5 years,6311.0,186.63,74.72,102.22,Apex Materials,G1,LOT-1107,Burr,8,Pass,True,2.432,0,6k-9k,Warm (185-200),1.001
+BF0202,Line C,Evening,338,M-105,9+ years,6615.0,185.75,58.84,103.6,Northstar Metals,G1,LOT-1182,Burr,20,Rework,True,5.917,0,6k-9k,Warm (185-200),2.05
+BF0203,Line C,Morning,369,M-101,0-2 years,5705.0,160.73,79.26,105.6,Apex Materials,G2,LOT-1248,Surface Crack,14,Rework,True,3.794,0,3k-6k,Low (<170),2.37
+BF0204,Line C,Evening,243,M-104,0-2 years,6810.0,203.72,66.72,118.22,Crest Industrial,G1,LOT-1072,Dimensional Error,38,Reject,True,15.638,1,6k-9k,High (>200),1.748
+BF0205,Line B,Morning,205,M-104,0-2 years,3651.0,177.5,73.23,91.74,Crest Industrial,G2,LOT-1218,Porosity,6,Pass,True,2.927,0,3k-6k,Normal (170-185),1.784
+BF0206,Line A,Morning,324,M-101,0-2 years,7211.0,184.84,71.65,109.55,Apex Materials,G1,LOT-1196,Dimensional Error,16,Rework,True,4.938,0,6k-9k,Normal (170-185),0.393
+BF0207,Line A,Morning,255,M-104,0-2 years,3354.0,175.19,64.25,100.7,Summit Alloy,G1,LOT-1155,Surface Crack,3,Pass,True,1.176,0,3k-6k,Normal (170-185),1.714
+BF0208,Line B,Morning,145,M-106,6-8 years,9899.0,173.92,79.46,115.02,Crest Industrial,G2,LOT-1037,Dimensional Error,8,Rework,True,5.517,0,9k+,Normal (170-185),1.41
+BF0209,Line A,Night,117,M-104,0-2 years,3377.0,192.96,68.49,127.11,Northstar Metals,G1,LOT-1168,Surface Crack,11,Reject,True,9.402,0,3k-6k,Warm (185-200),1.2
+BF0210,Line A,Evening,290,M-103,6-8 years,7763.0,181.77,74.02,123.72,Crest Industrial,G2,LOT-1182,Dimensional Error,26,Reject,True,8.966,0,6k-9k,Normal (170-185),0.737
+BF0211,Line A,Night,177,M-104,0-2 years,4227.0,194.67,75.56,102.49,Crest Industrial,G2,LOT-1060,Surface Crack,21,Reject,True,11.864,1,3k-6k,Warm (185-200),1.306
+BF0212,Line B,Evening,355,M-104,0-2 years,6416.0,185.12,78.69,142.96,Summit Alloy,G1,LOT-1225,Weld Defect,31,Reject,True,8.732,0,6k-9k,Warm (185-200),2.214
+BF0213,Line A,Night,183,M-104,0-2 years,3671.0,189.77,63.86,118.61,Northstar Metals,G1,LOT-1195,Porosity,10,Rework,True,5.464,0,3k-6k,Warm (185-200),1.256
+BF0214,Line A,Evening,111,M-101,0-2 years,2801.0,185.84,71.71,101.43,Apex Materials,G2,LOT-1133,Dimensional Error,5,Rework,True,4.505,0,0-3k,Warm (185-200),0.973
+BF0215,Line B,Morning,98,M-103,6-8 years,4811.0,198.43,69.27,125.27,Crest Industrial,G1,LOT-1116,Porosity,8,Reject,True,8.163,0,3k-6k,Warm (185-200),1.394
+BF0216,Line B,Night,271,M-106,6-8 years,7969.0,191.69,74.77,142.4,,,,Dimensional Error,49,Reject,False,18.081,1,6k-9k,Warm (185-200),2.073
+BF0217,Line C,Night,247,M-105,9+ years,6713.0,187.31,69.07,124.93,Apex Materials,G2,LOT-1233,Porosity,28,Reject,True,11.336,1,6k-9k,Warm (185-200),0.846
+BF0218,Line C,Evening,288,M-102,3-5 years,7024.0,187.47,69.78,109.44,Apex Materials,G2,LOT-1150,Burr,15,Rework,True,5.208,0,6k-9k,Warm (185-200),0.548
+BF0219,Line A,Evening,86,M-106,6-8 years,7474.0,171.36,72.22,125.64,Northstar Metals,G3,LOT-1064,Dimensional Error,4,Rework,True,4.651,0,6k-9k,Normal (170-185),1.368
+BF0220,Line B,Night,353,M-105,9+ years,3615.0,183.42,63.9,96.89,Summit Alloy,G2,LOT-1156,Weld Defect,11,Pass,True,3.116,0,3k-6k,Normal (170-185),1.741
+BF0221,Line D,Night,175,M-101,0-2 years,2186.0,195.27,68.85,126.56,Northstar Metals,G1,LOT-1233,Dimensional Error,10,Rework,True,5.714,0,0-3k,Warm (185-200),1.272
+BF0222,Line A,Evening,212,M-101,0-2 years,3418.0,194.06,74.58,114.9,Crest Industrial,G2,LOT-1213,Surface Crack,11,Rework,True,5.189,0,3k-6k,Warm (185-200),0.84
+BF0223,Line A,Morning,392,M-105,9+ years,3887.0,168.88,61.85,123.34,Apex Materials,G1,LOT-1140,Weld Defect,6,Pass,True,1.531,0,3k-6k,Low (<170),2.064
+BF0224,Line C,Evening,164,M-105,9+ years,7725.0,177.07,70.47,100.02,Apex Materials,G1,LOT-1060,Dimensional Error,17,Reject,True,10.366,1,6k-9k,Normal (170-185),1.276
+BF0225,Line B,Morning,333,M-106,6-8 years,4745.0,186.73,69.4,119.95,Northstar Metals,G3,LOT-1094,Weld Defect,20,Rework,True,6.006,0,3k-6k,Warm (185-200),0.533
+BF0226,Line C,Morning,173,M-104,0-2 years,8338.0,199.38,76.92,100.62,Summit Alloy,G3,LOT-1224,Surface Crack,26,Reject,True,15.029,1,6k-9k,Warm (185-200),1.728
+BF0227,Line C,Evening,347,M-104,0-2 years,8795.0,214.59,66.27,124.59,Northstar Metals,G2,LOT-1046,Porosity,54,Reject,True,15.562,1,6k-9k,High (>200),2.687
+BF0228,Line A,Evening,222,M-103,6-8 years,4164.0,198.45,72.34,110.95,Summit Alloy,G1,LOT-1042,Weld Defect,13,Rework,True,5.856,0,3k-6k,Warm (185-200),1.159
+BF0229,Line B,Night,353,M-103,6-8 years,4317.0,207.49,79.33,128.33,Northstar Metals,G3,LOT-1012,Weld Defect,54,Reject,True,15.297,1,3k-6k,High (>200),2.349
+BF0230,Line A,Morning,156,M-106,6-8 years,6195.0,179.11,72.74000000000001,117.64,Northstar Metals,G1,LOT-1195,Porosity,3,Pass,True,1.923,0,6k-9k,Normal (170-185),0.536
+BF0231,Line D,Night,112,M-103,6-8 years,3967.0,197.94,76.62,114.94,,,,Surface Crack,11,Reject,False,9.821,1,3k-6k,Warm (185-200),1.264
+BF0232,Line A,Night,91,M-103,6-8 years,4246.0,212.42,96.8,120.3,Apex Materials,G3,LOT-1116,Burr,18,Reject,True,19.78,1,3k-6k,High (>200),4.233
+BF0233,Line B,Morning,144,M-101,0-2 years,4976.0,164.05,62.55,136.35,Crest Industrial,G1,LOT-1093,Porosity,6,Rework,True,4.167,0,3k-6k,Low (<170),2.683
+BF0234,Line C,Night,397,M-103,6-8 years,6099.0,179.56,78.55,121.26,Summit Alloy,G3,LOT-1223,Surface Crack,59,Reject,True,14.861,1,6k-9k,Normal (170-185),1.132
+BF0235,Line B,Evening,360,M-101,0-2 years,5999.0,172.79,66.04,146.57,Northstar Metals,G2,LOT-1057,Dimensional Error,12,Pass,True,3.333,0,3k-6k,Normal (170-185),2.616
+BF0236,Line B,Morning,309,M-103,6-8 years,4242.0,173.68,76.12,122.64,Summit Alloy,G1,LOT-1221,Dimensional Error,14,Rework,True,4.531,0,3k-6k,Normal (170-185),1.239
+BF0237,Line A,Evening,117,M-105,9+ years,5276.0,191.51,63.62,107.04,Apex Materials,G1,LOT-1075,Porosity,4,Pass,True,3.419,0,3k-6k,Warm (185-200),1.432
+BF0238,Line B,Morning,251,M-106,6-8 years,4512.0,186.83,74.09,110.76,Apex Materials,G2,LOT-1218,Weld Defect,6,Pass,True,2.39,0,3k-6k,Warm (185-200),0.452
+BF0239,Line D,Morning,381,M-106,6-8 years,7149.0,176.08,84.6,118.65,Crest Industrial,G3,LOT-1200,Porosity,43,Reject,True,11.286,1,6k-9k,Normal (170-185),1.965
+BF0240,Line C,Morning,212,M-103,6-8 years,4859.0,164.11,63.38,101.81,Northstar Metals,G2,LOT-1133,Weld Defect,3,Pass,True,1.415,0,3k-6k,Low (<170),2.331
+BF0241,Line C,Morning,219,M-106,6-8 years,3980.0,209.65,68.94,116.97,Summit Alloy,G1,LOT-1177,Dimensional Error,20,Reject,True,9.132,0,3k-6k,High (>200),2.105
+BF0242,Line C,Evening,149,M-106,6-8 years,2812.0,204.3,62.87,98.71,Apex Materials,G1,LOT-1050,Dimensional Error,8,Rework,True,5.369,0,0-3k,High (>200),2.375
+BF0243,Line C,Evening,373,M-103,6-8 years,6148.0,202.44,80.77,122.88,,,,Dimensional Error,74,Reject,False,19.839,1,6k-9k,High (>200),2.0
+BF0244,Line B,Evening,363,M-105,9+ years,5719.0,174.12,60.88,137.45,Crest Industrial,G2,LOT-1241,Dimensional Error,17,Rework,True,4.683,0,3k-6k,Normal (170-185),2.432
+BF0245,Line B,Morning,123,M-102,3-5 years,3395.0,186.84,71.29,138.86,Apex Materials,G3,LOT-1064,Porosity,5,Rework,True,4.065,0,3k-6k,Warm (185-200),1.714
+BF0246,Line C,Morning,102,M-104,0-2 years,5641.0,189.95,84.65,109.02,Northstar Metals,G3,LOT-1089,Surface Crack,7,Rework,True,6.863,0,3k-6k,Warm (185-200),1.902
+BF0247,Line D,Morning,121,M-103,6-8 years,3654.0,186.86,72.17,124.45,Summit Alloy,G3,LOT-1244,Dimensional Error,6,Rework,True,4.959,0,3k-6k,Warm (185-200),0.693
+BF0248,Line C,Evening,328,M-106,6-8 years,3678.0,195.87,77.5,139.2,Apex Materials,G3,LOT-1063,Dimensional Error,45,Reject,True,13.72,1,3k-6k,Warm (185-200),2.104
+BF0249,Line D,Evening,135,M-106,6-8 years,3631.0,168.35,77.94,112.92,Northstar Metals,G1,LOT-1249,Surface Crack,6,Rework,True,4.444,0,3k-6k,Low (<170),1.633
+BF0250,Line C,Evening,274,M-102,3-5 years,5979.0,182.51,79.24,133.04,Northstar Metals,G1,LOT-1092,Porosity,25,Reject,True,9.124,0,3k-6k,Normal (170-185),1.665
+BF0251,Line A,Evening,335,M-101,0-2 years,4765.0,178.68,73.42,145.52,Crest Industrial,G2,LOT-1233,Porosity,19,Rework,True,5.672,0,3k-6k,Normal (170-185),2.252
+BF0252,Line A,Evening,259,M-105,9+ years,6136.0,196.21,75.78,109.92,Crest Industrial,G1,LOT-1197,Porosity,30,Reject,True,11.583,1,6k-9k,Warm (185-200),1.138
+BF0253,Line D,Morning,250,M-101,0-2 years,5018.0,193.85,63.85,110.31,Crest Industrial,G2,LOT-1135,Surface Crack,18,Rework,True,7.2,0,3k-6k,Warm (185-200),1.418
+BF0254,Line A,Night,356,M-103,6-8 years,4782.0,196.55,67.16,132.47,Northstar Metals,G2,LOT-1217,Dimensional Error,31,Reject,True,8.708,0,3k-6k,Warm (185-200),1.721
+BF0255,Line B,Evening,91,M-101,0-2 years,4823.0,170.59,83.2,115.2,Apex Materials,G1,LOT-1241,Surface Crack,2,Pass,True,2.198,0,3k-6k,Normal (170-185),2.001
+BF0256,Line B,Evening,298,M-102,3-5 years,2044.0,191.22,57.83,120.47,Apex Materials,G2,LOT-1001,Dimensional Error,7,Pass,True,2.349,0,0-3k,Warm (185-200),2.126
+BF0257,Line C,Morning,229,M-103,6-8 years,7464.0,206.68,67.58,115.44,Northstar Metals,G2,LOT-1049,Dimensional Error,24,Reject,True,10.48,1,6k-9k,High (>200),1.914
+BF0258,Line D,Night,365,M-101,0-2 years,7227.0,178.01,75.67,129.81,Summit Alloy,G1,LOT-1083,Porosity,28,Reject,True,7.671,0,6k-9k,Normal (170-185),1.317
+BF0259,Line A,Evening,395,M-102,3-5 years,3813.0,209.96,70.15,133.41,Apex Materials,G1,LOT-1112,Burr,32,Reject,True,8.101,0,3k-6k,High (>200),2.475
+BF0260,Line A,Evening,220,M-101,0-2 years,5878.0,180.69,77.64,90.03,Crest Industrial,G2,LOT-1212,Dimensional Error,11,Rework,True,5.0,0,3k-6k,Normal (170-185),1.99
+BF0261,Line C,Night,220,M-106,6-8 years,4025.0,187.17,79.99,119.63,Summit Alloy,G1,LOT-1049,Burr,18,Reject,True,8.182,0,3k-6k,Warm (185-200),1.202
+BF0262,Line C,Night,348,M-105,9+ years,3649.0,207.1,72.16,117.76,,,,Weld Defect,68,Reject,False,19.54,1,3k-6k,High (>200),1.852
+BF0263,Line C,Morning,332,M-104,0-2 years,6891.0,175.69,75.8,117.61,Crest Industrial,G1,LOT-1015,Weld Defect,34,Reject,True,10.241,1,6k-9k,Normal (170-185),0.965
+BF0264,Line C,Evening,196,M-106,6-8 years,5580.0,214.69,64.84,117.6,Crest Industrial,G1,LOT-1057,Dimensional Error,39,Reject,True,19.898,1,3k-6k,High (>200),2.684
+BF0265,Line D,Morning,137,M-106,6-8 years,7213.0,193.8,77.92,110.81,Crest Industrial,G2,LOT-1180,Weld Defect,14,Reject,True,10.219,1,6k-9k,Warm (185-200),1.159
+BF0266,Line C,Morning,85,M-103,6-8 years,3418.0,184.98,64.7,114.34,Apex Materials,G2,LOT-1248,Dimensional Error,5,Rework,True,5.882,0,3k-6k,Normal (170-185),1.044
+BF0267,Line C,Night,284,M-104,0-2 years,7933.0,193.71,85.35,120.21,Apex Materials,G3,LOT-1033,Surface Crack,72,Reject,True,25.352,1,6k-9k,Warm (185-200),2.074
+BF0268,Line B,Evening,321,M-102,3-5 years,6877.0,186.84,63.34,118.09,Apex Materials,G1,LOT-1030,Dimensional Error,16,Rework,True,4.984,0,6k-9k,Warm (185-200),1.266
+BF0269,Line D,Morning,93,M-106,6-8 years,6378.0,193.64,76.18,138.79,Crest Industrial,G1,LOT-1010,Dimensional Error,9,Reject,True,9.677,1,6k-9k,Warm (185-200),1.94
+BF0270,Line C,Evening,244,M-106,6-8 years,5865.0,202.87,65.42,91.7,Crest Industrial,G3,LOT-1246,Porosity,28,Reject,True,11.475,1,3k-6k,High (>200),2.423
+BF0271,Line A,Evening,225,M-104,0-2 years,4182.0,187.33,73.5,122.75,Crest Industrial,G3,LOT-1215,Burr,9,Rework,True,4.0,0,3k-6k,Warm (185-200),0.625
+BF0272,Line C,Evening,390,M-106,6-8 years,6120.0,198.08,76.43,111.74,Summit Alloy,G3,LOT-1046,Porosity,56,Reject,True,14.359,1,6k-9k,Warm (185-200),1.282
+BF0273,Line A,Morning,331,M-102,3-5 years,2663.0,182.99,70.79,117.2,Northstar Metals,G1,LOT-1029,Porosity,11,Pass,True,3.323,0,0-3k,Normal (170-185),0.287
+BF0274,Line B,Morning,290,M-102,3-5 years,6065.0,200.19,69.41,119.23,Apex Materials,G1,LOT-1239,Porosity,15,Rework,True,5.172,0,6k-9k,High (>200),1.353
+BF0275,Line A,Morning,153,M-102,3-5 years,3624.0,188.46,65.13,85.37,Summit Alloy,G2,LOT-1027,No Defect,0,Pass,True,0.0,0,3k-6k,Warm (185-200),2.351
+BF0276,Line B,Evening,182,M-106,6-8 years,5944.0,186.84,76.57,143.76,Crest Industrial,G3,LOT-1113,Dimensional Error,16,Reject,True,8.791,0,3k-6k,Warm (185-200),2.161
+BF0277,Line B,Evening,304,M-101,0-2 years,4044.0,163.01,64.32,102.29,Crest Industrial,G1,LOT-1101,Weld Defect,2,Pass,True,0.658,0,3k-6k,Low (<170),2.321
+BF0278,Line C,Night,274,M-103,6-8 years,1854.0,189.97,76.25,110.87,Northstar Metals,G2,LOT-1059,Weld Defect,16,Rework,True,5.839,0,0-3k,Warm (185-200),0.792
+BF0279,Line C,Night,289,M-106,6-8 years,4644.0,192.52,74.52,133.51,,,,Burr,29,Reject,False,10.035,1,3k-6k,Warm (185-200),1.507
+BF0280,Line B,Morning,394,M-106,6-8 years,5518.0,179.59,82.87,117.61,Northstar Metals,G1,LOT-1111,Dimensional Error,15,Rework,True,3.807,0,3k-6k,Normal (170-185),1.628
+BF0281,Line C,Evening,363,M-102,3-5 years,5307.0,199.61,73.69,93.63,Northstar Metals,G1,LOT-1133,Burr,30,Reject,True,8.264,0,3k-6k,Warm (185-200),1.967
+BF0282,Line B,Night,286,M-101,0-2 years,7457.0,185.88,76.3,122.58,Summit Alloy,G2,LOT-1008,Burr,27,Reject,True,9.441,1,6k-9k,Warm (185-200),0.822
+BF0283,Line A,Night,135,M-106,6-8 years,4305.0,203.35,64.13,95.52,Apex Materials,G2,LOT-1237,Porosity,10,Rework,True,7.407,0,3k-6k,High (>200),2.353
+BF0284,Line D,Evening,336,M-101,0-2 years,4806.0,194.72,77.88,121.17,Northstar Metals,G1,LOT-1103,Weld Defect,14,Rework,True,4.167,0,3k-6k,Warm (185-200),1.247
+BF0285,Line A,Evening,130,M-104,0-2 years,5109.0,189.65,71.01,122.38,Crest Industrial,G1,LOT-1246,Dimensional Error,9,Rework,True,6.923,0,3k-6k,Warm (185-200),0.669
+BF0286,Line C,Evening,325,M-101,0-2 years,3560.0,195.9,66.13,115.89,Apex Materials,G2,LOT-1235,Dimensional Error,12,Rework,True,3.692,0,3k-6k,Warm (185-200),1.238
+BF0287,Line A,Night,327,M-106,6-8 years,5904.0,193.88,73.39,81.24,Apex Materials,G1,LOT-1012,Surface Crack,21,Rework,True,6.422,0,3k-6k,Warm (185-200),2.53
+BF0288,Line C,Evening,280,M-104,0-2 years,4113.0,216.55,77.93,109.82,Summit Alloy,G2,LOT-1223,Dimensional Error,25,Reject,True,8.929,0,3k-6k,High (>200),2.787
+BF0289,Line C,Morning,156,M-101,0-2 years,6732.0,180.22,69.64,104.72,Apex Materials,G1,LOT-1240,Surface Crack,9,Rework,True,5.769,0,6k-9k,Normal (170-185),0.901
+BF0290,Line A,Evening,363,M-102,3-5 years,3783.0,178.23,75.55,94.76,Crest Industrial,G3,LOT-1243,Dimensional Error,8,Pass,True,2.204,0,3k-6k,Normal (170-185),1.633
+BF0291,Line D,Evening,108,M-104,0-2 years,5606.0,197.57,67.83,110.56,Crest Industrial,G3,LOT-1086,Porosity,14,Reject,True,12.963,1,3k-6k,Warm (185-200),1.246
+BF0292,Line B,Evening,382,M-103,6-8 years,4215.0,167.5,77.07,127.28,Crest Industrial,G1,LOT-1005,Surface Crack,16,Rework,True,4.188,0,3k-6k,Low (<170),1.85
+BF0293,Line D,Morning,357,M-102,3-5 years,2100.0,183.91,69.93,105.73,Crest Industrial,G1,LOT-1201,Porosity,17,Rework,True,4.762,0,0-3k,Normal (170-185),0.731
+BF0294,Line B,Morning,303,M-103,6-8 years,5786.0,183.42,72.31,123.63,Apex Materials,G3,LOT-1229,Surface Crack,21,Rework,True,6.931,0,3k-6k,Normal (170-185),0.632
+BF0295,Line A,Morning,171,M-103,6-8 years,7055.0,180.17,80.68,110.83,Northstar Metals,G3,LOT-1158,Dimensional Error,9,Rework,True,5.263,0,6k-9k,Normal (170-185),1.337
+BF0296,Line D,Night,133,M-102,3-5 years,2216.0,172.93,79.99,119.2,Summit Alloy,G1,LOT-1139,Porosity,6,Rework,True,4.511,0,0-3k,Normal (170-185),1.551
+BF0297,Line D,Evening,175,M-106,6-8 years,4421.0,200.86,81.41,106.06,Northstar Metals,G1,LOT-1166,Dimensional Error,11,Rework,True,6.286,0,3k-6k,High (>200),1.99
+BF0298,Line D,Morning,156,M-101,0-2 years,3822.0,186.95,65.9,120.45,Summit Alloy,G1,LOT-1201,Weld Defect,9,Rework,True,5.769,0,3k-6k,Warm (185-200),0.968
+BF0299,Line C,Morning,162,M-106,6-8 years,5494.0,203.73,84.17,117.4,Apex Materials,G3,LOT-1114,Dimensional Error,32,Reject,True,19.753,1,3k-6k,High (>200),2.343
+BF0300,Line D,Evening,107,M-105,9+ years,7864.0,186.84,68.11,113.8,Crest Industrial,G2,LOT-1206,Surface Crack,10,Reject,True,9.346,0,6k-9k,Warm (185-200),0.583
+BF0301,Line B,Evening,281,M-106,6-8 years,7983.0,177.26,66.97,114.61,Summit Alloy,G2,LOT-1079,Porosity,12,Rework,True,4.27,0,6k-9k,Normal (170-185),0.966
+BF0302,Line B,Morning,386,M-101,0-2 years,4878.0,181.46,70.01,109.29,Summit Alloy,G1,LOT-1055,Surface Crack,12,Pass,True,3.109,0,3k-6k,Normal (170-185),0.578
+BF0303,Line C,Night,395,M-101,0-2 years,5552.0,197.85,69.43,133.43,Summit Alloy,G2,LOT-1190,Porosity,63,Reject,True,15.949,1,3k-6k,Warm (185-200),1.736
+BF0304,Line A,Night,114,M-103,6-8 years,6597.0,205.79,81.63,125.45,Northstar Metals,G2,LOT-1008,Surface Crack,15,Reject,True,13.158,1,6k-9k,High (>200),2.335
+BF0305,Line D,Morning,233,M-103,6-8 years,4266.0,186.84,76.42,125.93,Summit Alloy,G2,LOT-1134,Weld Defect,7,Pass,True,3.004,0,3k-6k,Warm (185-200),1.016
+BF0306,Line B,Evening,267,M-103,6-8 years,6099.0,181.72,77.06,139.09,Apex Materials,G3,LOT-1020,Burr,26,Reject,True,9.738,1,6k-9k,Normal (170-185),1.886
+BF0307,Line B,Morning,152,M-102,3-5 years,8804.0,187.4,72.74000000000001,123.91,,,,Dimensional Error,9,Rework,False,5.921,0,6k-9k,Warm (185-200),0.675
+BF0308,Line B,Night,324,M-105,9+ years,6669.0,164.14,76.39,116.73,Northstar Metals,G3,LOT-1010,Dimensional Error,19,Rework,True,5.864,0,6k-9k,Low (<170),1.852
+BF0309,Line B,Morning,342,M-106,6-8 years,2956.0,190.39,73.22,142.06,Apex Materials,G1,LOT-1240,Porosity,15,Rework,True,4.386,0,0-3k,Warm (185-200),1.992
+BF0310,Line D,Morning,255,M-104,0-2 years,6269.0,186.84,63.7,125.55,Summit Alloy,G2,LOT-1233,Porosity,16,Rework,True,6.275,0,6k-9k,Warm (185-200),1.413
+BF0311,Line C,Morning,212,M-104,0-2 years,4207.0,157.26,73.83,118.78,Northstar Metals,G2,LOT-1133,Porosity,5,Pass,True,2.358,0,3k-6k,Low (<170),2.342
+BF0312,Line C,Morning,284,M-101,0-2 years,1275.0,185.84,70.53,111.29,Northstar Metals,G2,LOT-1213,Dimensional Error,10,Rework,True,3.521,0,0-3k,Warm (185-200),0.345
+BF0313,Line C,Morning,210,M-106,6-8 years,5138.0,183.26,78.95,121.86,Apex Materials,G2,LOT-1043,Porosity,9,Rework,True,4.286,0,3k-6k,Normal (170-185),1.117
+BF0314,Line D,Night,315,M-105,9+ years,3760.0,185.48,64.83,97.67,Crest Industrial,G2,LOT-1034,Surface Crack,15,Rework,True,4.762,0,3k-6k,Warm (185-200),1.607
+BF0315,Line B,Evening,180,M-103,6-8 years,7120.0,185.85,65.68,115.01,Apex Materials,G1,LOT-1056,Burr,14,Reject,True,7.778,0,6k-9k,Warm (185-200),0.906
+BF0316,Line C,Morning,101,M-106,6-8 years,5196.0,173.27,68.81,105.77,Summit Alloy,G1,LOT-1037,Weld Defect,3,Pass,True,2.97,0,3k-6k,Normal (170-185),1.264
+BF0317,Line B,Morning,99,M-106,6-8 years,6101.0,177.59,72.74000000000001,152.15,Northstar Metals,G2,LOT-1117,Surface Crack,3,Pass,True,3.03,0,6k-9k,Normal (170-185),2.727
+BF0318,Line C,Night,235,M-104,0-2 years,5960.0,191.18,77.53,99.87,Crest Industrial,G2,LOT-1036,Surface Crack,37,Reject,True,15.745,1,3k-6k,Warm (185-200),1.434
+BF0319,Line C,Morning,392,M-102,3-5 years,4131.0,184.26,61.15,114.46,Crest Industrial,G1,LOT-1114,Porosity,18,Rework,True,4.592,0,3k-6k,Normal (170-185),1.552
+BF0320,Line B,Evening,264,M-105,9+ years,5970.0,185.53,79.12,121.19,Apex Materials,G1,LOT-1050,Surface Crack,13,Rework,True,4.924,0,3k-6k,Warm (185-200),1.11
+BF0321,Line B,Morning,400,M-105,9+ years,1227.0,177.42,72.16,130.47,Northstar Metals,G1,LOT-1014,Porosity,12,Pass,True,3.0,0,0-3k,Normal (170-185),1.273
+BF0322,Line D,Night,343,M-104,0-2 years,3022.0,186.84,69.87,109.69,Crest Industrial,G2,LOT-1025,Weld Defect,15,Rework,True,4.373,0,3k-6k,Warm (185-200),0.51
+BF0323,Line C,Evening,147,M-104,0-2 years,6906.0,202.85,79.66,125.93,Apex Materials,G1,LOT-1196,Dimensional Error,16,Reject,True,10.884,1,6k-9k,High (>200),2.005
+BF0324,Line C,Evening,170,M-101,0-2 years,6366.0,200.1,58.4,106.17,Northstar Metals,G3,LOT-1175,Weld Defect,11,Rework,True,6.471,0,6k-9k,High (>200),2.399
+BF0325,Line C,Morning,356,M-103,6-8 years,2837.0,176.36,72.35,92.19,Apex Materials,G1,LOT-1015,Burr,14,Rework,True,3.933,0,0-3k,Normal (170-185),1.782
+BF0326,Line B,Night,271,M-101,0-2 years,3682.0,200.7,75.62,118.16,Northstar Metals,G2,LOT-1196,Burr,20,Rework,True,7.38,0,3k-6k,High (>200),1.425
+BF0327,Line C,Night,200,M-103,6-8 years,3594.0,185.92,71.26,100.6,Northstar Metals,G1,LOT-1206,Porosity,7,Pass,True,3.5,0,3k-6k,Warm (185-200),1.037
+BF0328,Line C,Evening,142,M-103,6-8 years,4691.0,185.5,76.55,120.86,Summit Alloy,G1,LOT-1046,Dimensional Error,14,Reject,True,9.859,1,3k-6k,Warm (185-200),0.774
+BF0329,Line D,Night,170,M-106,6-8 years,5572.0,170.38,63.89,108.44,Northstar Metals,G2,LOT-1136,Dimensional Error,5,Pass,True,2.941,0,3k-6k,Normal (170-185),1.745
+BF0330,Line D,Morning,134,M-101,0-2 years,9127.0,198.07,68.41,117.54,Summit Alloy,G2,LOT-1204,Dimensional Error,6,Rework,True,4.478,0,9k+,Warm (185-200),1.217
+BF0331,Line A,Evening,179,M-102,3-5 years,5360.0,181.42,78.37,116.3,Northstar Metals,G2,LOT-1042,Weld Defect,6,Pass,True,3.352,0,3k-6k,Normal (170-185),0.962
+BF0332,Line B,Morning,297,M-104,0-2 years,4924.0,172.92,73.5,119.9,Summit Alloy,G3,LOT-1097,Surface Crack,7,Pass,True,2.357,0,3k-6k,Normal (170-185),1.087
+BF0333,Line B,Morning,251,M-106,6-8 years,5736.0,186.84,70.77,100.93,Northstar Metals,G2,LOT-1002,Porosity,12,Rework,True,4.781,0,3k-6k,Warm (185-200),1.032
+BF0334,Line A,Morning,87,M-102,3-5 years,5146.0,162.39,78.82,129.48,Northstar Metals,G2,LOT-1166,Dimensional Error,3,Pass,True,3.448,0,3k-6k,Low (<170),2.36
+BF0335,Line A,Evening,183,M-106,6-8 years,1954.0,208.36,73.41,94.7,Northstar Metals,G1,LOT-1018,Dimensional Error,5,Pass,True,2.732,0,0-3k,High (>200),2.436
+BF0336,Line B,Night,239,M-101,0-2 years,6528.0,173.89,62.46,128.29,Apex Materials,G1,LOT-1240,Surface Crack,10,Rework,True,4.184,0,6k-9k,Normal (170-185),1.901
+BF0337,Line C,Morning,328,M-104,0-2 years,2979.0,206.87,67.46,93.85,Apex Materials,G2,LOT-1079,Surface Crack,21,Rework,True,6.402,0,0-3k,High (>200),2.454
+BF0338,Line B,Morning,309,M-103,6-8 years,7312.0,186.84,73.45,128.66,Northstar Metals,G2,LOT-1213,Surface Crack,9,Pass,True,2.913,0,6k-9k,Warm (185-200),1.009
+BF0339,Line C,Morning,81,M-103,6-8 years,6968.0,186.89,75.81,116.06,Apex Materials,G2,LOT-1186,Surface Crack,4,Rework,True,4.938,0,6k-9k,Warm (185-200),0.572
+BF0340,Line B,Morning,223,M-103,6-8 years,4324.0,177.28,80.22,135.5,Apex Materials,G1,LOT-1069,Weld Defect,9,Rework,True,4.036,0,3k-6k,Normal (170-185),1.984
+BF0341,Line B,Evening,352,M-104,0-2 years,5193.0,183.98,78.21,102.94,Summit Alloy,G2,LOT-1133,Surface Crack,15,Rework,True,4.261,0,3k-6k,Normal (170-185),1.239
+BF0342,Line B,Night,318,M-101,0-2 years,3816.0,213.73,82.41,104.98,Northstar Metals,G1,LOT-1020,Surface Crack,34,Reject,True,10.692,1,3k-6k,High (>200),2.908
+BF0343,Line A,Night,139,M-105,9+ years,9672.0,187.86,71.94,102.15,Northstar Metals,G2,LOT-1063,Porosity,12,Reject,True,8.633,0,9k+,Warm (185-200),0.948
+BF0344,Line C,Evening,98,M-102,3-5 years,4159.0,185.37,62.14,120.41,Apex Materials,G1,LOT-1107,Porosity,5,Rework,True,5.102,0,3k-6k,Warm (185-200),1.461
+BF0345,Line B,Morning,169,M-102,3-5 years,4735.0,177.24,73.1,118.0,Crest Industrial,G1,LOT-1019,Surface Crack,9,Rework,True,5.325,0,3k-6k,Normal (170-185),0.699
+BF0346,Line A,Morning,147,M-103,6-8 years,5886.0,181.67,66.29,130.86,Northstar Metals,G1,LOT-1172,Surface Crack,6,Rework,True,4.082,0,3k-6k,Normal (170-185),1.423
+BF0347,Line D,Morning,97,M-103,6-8 years,6639.0,196.04,68.8,124.49,Crest Industrial,G2,LOT-1063,Surface Crack,4,Rework,True,4.124,0,6k-9k,Warm (185-200),1.231
+BF0348,Line B,Night,90,M-106,6-8 years,4071.0,180.22,67.97,108.92,Crest Industrial,G2,LOT-1087,Porosity,3,Pass,True,3.333,0,3k-6k,Normal (170-185),0.824
+BF0349,Line C,Evening,221,M-106,6-8 years,3738.0,182.9,85.15,114.27,Apex Materials,G2,LOT-1051,Burr,16,Rework,True,7.24,0,3k-6k,Normal (170-185),1.887
+BF0350,Line A,Morning,310,M-103,6-8 years,5110.0,191.63,82.4,124.51,Summit Alloy,G1,LOT-1010,Burr,24,Reject,True,7.742,0,3k-6k,Warm (185-200),1.725
+BF0351,Line B,Night,131,M-101,0-2 years,2574.0,184.13,66.97,109.17,Northstar Metals,G2,LOT-1234,Weld Defect,2,Pass,True,1.527,0,0-3k,Normal (170-185),0.834
+BF0352,Line C,Morning,145,M-104,0-2 years,5054.0,189.52,71.87,111.56,Apex Materials,G1,LOT-1131,Weld Defect,6,Rework,True,4.138,0,3k-6k,Warm (185-200),0.45
+BF0353,Line C,Morning,217,M-106,6-8 years,7223.0,179.66,69.79,138.86,Summit Alloy,G1,LOT-1157,Porosity,16,Rework,True,7.373,0,6k-9k,Normal (170-185),1.789
+BF0354,Line D,Morning,377,M-104,0-2 years,3992.0,180.41,70.45,86.97,Apex Materials,G3,LOT-1059,Dimensional Error,10,Pass,True,2.653,0,3k-6k,Normal (170-185),2.05
+BF0355,Line B,Night,84,M-102,3-5 years,5491.0,177.16,75.85,127.74,Crest Industrial,G3,LOT-1220,Surface Crack,12,Reject,True,14.286,1,3k-6k,Normal (170-185),1.248
+BF0356,Line D,Evening,306,M-102,3-5 years,5239.0,191.42,65.09,101.78,Northstar Metals,G2,LOT-1059,Weld Defect,11,Rework,True,3.595,0,3k-6k,Warm (185-200),1.467
+BF0357,Line B,Morning,244,M-102,3-5 years,3764.0,197.36,73.28,110.48,Northstar Metals,G2,LOT-1083,Dimensional Error,7,Pass,True,2.869,0,3k-6k,Warm (185-200),1.095
+BF0358,Line A,Night,322,M-104,0-2 years,6673.0,214.35,70.64,113.4,Northstar Metals,G3,LOT-1062,Dimensional Error,42,Reject,True,13.043,1,6k-9k,High (>200),2.456
+BF0359,Line C,Morning,208,M-105,9+ years,4068.0,202.73,66.63,93.67,Northstar Metals,G1,LOT-1067,Surface Crack,14,Rework,True,6.731,0,3k-6k,High (>200),2.257
+BF0360,Line A,Evening,160,M-104,0-2 years,4007.0,186.9,70.2,114.2,Summit Alloy,G3,LOT-1156,Burr,9,Rework,True,5.625,0,3k-6k,Warm (185-200),0.307
+BF0361,Line B,Evening,337,M-106,6-8 years,5232.0,178.57,68.11,116.04,Northstar Metals,G1,LOT-1182,Dimensional Error,12,Rework,True,3.561,0,3k-6k,Normal (170-185),0.776
+BF0362,Line D,Night,93,M-105,9+ years,4885.0,181.58,71.95,133.57,Northstar Metals,G2,LOT-1030,Weld Defect,9,Reject,True,9.677,1,3k-6k,Normal (170-185),1.357
+BF0363,Line D,Morning,348,M-106,6-8 years,2746.0,182.39,86.38,135.93,Northstar Metals,G3,LOT-1163,Weld Defect,31,Reject,True,8.908,0,0-3k,Normal (170-185),2.55
+BF0364,Line C,Evening,192,M-101,0-2 years,5179.0,200.31,61.61,129.28,Crest Industrial,G2,LOT-1025,Burr,18,Reject,True,9.375,0,3k-6k,High (>200),2.207
+BF0365,Line A,Night,231,M-101,0-2 years,4707.0,191.94,75.05,100.8,Crest Industrial,G2,LOT-1007,Surface Crack,23,Reject,True,9.957,1,3k-6k,Warm (185-200),1.246
+BF0366,Line A,Night,390,M-105,9+ years,4374.0,195.52,82.61,127.39,Apex Materials,G2,LOT-1183,Weld Defect,34,Reject,True,8.718,0,3k-6k,Warm (185-200),1.962
+BF0367,Line C,Night,122,M-103,6-8 years,9610.0,186.84,73.49,129.99,Northstar Metals,G2,LOT-1129,Dimensional Error,30,Reject,True,24.59,1,9k+,Warm (185-200),1.102
+BF0368,Line A,Evening,197,M-101,0-2 years,8805.0,204.77,70.47,110.8,Northstar Metals,G3,LOT-1192,Dimensional Error,25,Reject,True,12.69,1,6k-9k,High (>200),1.689
+BF0369,Line D,Night,209,M-106,6-8 years,3926.0,188.36,73.2,106.91,Apex Materials,G2,LOT-1142,Surface Crack,15,Rework,True,7.177,0,3k-6k,Warm (185-200),0.665
+BF0370,Line B,Evening,195,M-105,9+ years,8791.0,193.04,73.83,134.91,Northstar Metals,G1,LOT-1249,Porosity,20,Reject,True,10.256,1,6k-9k,Warm (185-200),1.594
+BF0371,Line B,Morning,389,M-104,0-2 years,6296.0,165.54,74.35,120.7,Northstar Metals,G3,LOT-1112,Burr,12,Pass,True,3.085,0,6k-9k,Low (<170),1.705
+BF0372,Line B,Evening,229,M-102,3-5 years,4140.0,194.52,74.43,137.45,Crest Industrial,G1,LOT-1133,Surface Crack,21,Reject,True,9.17,0,3k-6k,Warm (185-200),1.822
+BF0373,Line C,Night,103,M-103,6-8 years,1875.0,175.87,66.61,117.61,Apex Materials,G2,LOT-1184,Burr,6,Rework,True,5.825,0,0-3k,Normal (170-185),1.098
+BF0374,Line C,Night,341,M-105,9+ years,4503.0,172.67,61.88,145.2,Apex Materials,G1,LOT-1086,Burr,27,Reject,True,7.918,0,3k-6k,Normal (170-185),2.793
+BF0375,Line C,Evening,222,M-103,6-8 years,3973.0,204.53,63.15,141.86,Summit Alloy,G2,LOT-1238,Surface Crack,12,Rework,True,5.405,0,3k-6k,High (>200),2.816
+BF0376,Line A,Morning,103,M-105,9+ years,2398.0,176.43,60.51,153.14,Northstar Metals,G2,LOT-1211,Dimensional Error,1,Pass,True,0.971,0,0-3k,Normal (170-185),3.26
+BF0377,Line D,Evening,297,M-101,0-2 years,8089.0,187.52,63.45,125.42,Apex Materials,G1,LOT-1085,Weld Defect,13,Rework,True,4.377,0,6k-9k,Warm (185-200),1.446
+BF0378,Line A,Morning,127,M-101,0-2 years,4454.0,169.67,72.56,104.41,Apex Materials,G3,LOT-1140,Dimensional Error,7,Rework,True,5.512,0,3k-6k,Low (<170),1.487
+BF0379,Line C,Morning,111,M-101,0-2 years,4797.0,202.76,83.13,128.95,Crest Industrial,G2,LOT-1000,Weld Defect,19,Reject,True,17.117,1,3k-6k,High (>200),2.39
+BF0380,Line C,Evening,384,M-106,6-8 years,6837.0,200.83,62.43,106.97,Northstar Metals,G1,LOT-1115,Weld Defect,33,Reject,True,8.594,0,6k-9k,High (>200),1.985
+BF0381,Line A,Morning,223,M-101,0-2 years,3867.0,185.92,78.75,122.55,Northstar Metals,G3,LOT-1038,Dimensional Error,11,Rework,True,4.933,0,3k-6k,Warm (185-200),1.107
+BF0382,Line B,Evening,205,M-104,0-2 years,5804.0,177.46,67.98,97.06,Apex Materials,G2,LOT-1060,Surface Crack,8,Rework,True,3.902,0,3k-6k,Normal (170-185),1.538
+BF0383,Line A,Evening,332,M-106,6-8 years,5130.0,199.5,72.74000000000001,127.8,Northstar Metals,G1,LOT-1039,Porosity,23,Rework,True,6.928,0,3k-6k,Warm (185-200),1.519
+BF0384,Line C,Morning,110,M-103,6-8 years,6096.0,168.48,69.14,102.01,Northstar Metals,G1,LOT-1101,Dimensional Error,1,Pass,True,0.909,0,6k-9k,Low (<170),1.71
+BF0385,Line A,Morning,395,M-102,3-5 years,6547.0,179.3,69.92,102.15,Crest Industrial,G1,LOT-1050,Burr,21,Rework,True,5.316,0,6k-9k,Normal (170-185),1.075
+BF0386,Line B,Morning,111,M-104,0-2 years,400.0,162.6,72.85,130.5,Northstar Metals,G1,LOT-1200,Burr,3,Pass,True,2.703,0,0-3k,Low (<170),2.174
+BF0387,Line A,Night,345,M-104,0-2 years,5365.0,202.47,87.65,93.81,Northstar Metals,G2,LOT-1039,Porosity,26,Reject,True,7.536,0,3k-6k,High (>200),3.067
+BF0388,Line A,Evening,314,M-106,6-8 years,1879.0,171.19,78.04,93.17,Crest Industrial,G2,LOT-1106,Weld Defect,6,Pass,True,1.911,0,0-3k,Normal (170-185),2.121
+BF0389,Line C,Morning,241,M-101,0-2 years,7429.0,222.47,63.67,116.27,Crest Industrial,G1,LOT-1078,Surface Crack,61,Reject,True,25.311,1,6k-9k,High (>200),3.343
+BF0390,Line D,Morning,182,M-104,0-2 years,3415.0,184.02,83.59,105.87,Northstar Metals,G2,LOT-1056,Dimensional Error,9,Rework,True,4.945,0,3k-6k,Normal (170-185),1.781
+BF0391,Line A,Night,195,M-101,0-2 years,8572.0,183.16,84.73,133.29,Crest Industrial,G3,LOT-1172,Weld Defect,43,Reject,True,22.051,1,6k-9k,Normal (170-185),2.244
+BF0392,Line C,Night,258,M-101,0-2 years,2770.0,194.05,80.54,97.91,Crest Industrial,G2,LOT-1206,Dimensional Error,38,Reject,True,14.729,1,0-3k,Warm (185-200),1.883
+BF0393,Line C,Evening,242,M-105,9+ years,5072.0,209.93,73.63,116.29,Northstar Metals,G3,LOT-1161,Dimensional Error,35,Reject,True,14.463,1,3k-6k,High (>200),2.093
+BF0394,Line D,Night,117,M-105,9+ years,7149.0,187.1,81.18,103.44,Northstar Metals,G2,LOT-1045,Porosity,7,Rework,True,5.983,0,6k-9k,Warm (185-200),1.56
+BF0395,Line B,Evening,116,M-106,6-8 years,5559.0,162.31,87.8,142.84,Northstar Metals,G1,LOT-1027,Porosity,9,Reject,True,7.759,0,3k-6k,Low (<170),3.553
+BF0396,Line B,Morning,132,M-103,6-8 years,4436.0,176.98,72.48,126.33,Northstar Metals,G1,LOT-1044,Dimensional Error,6,Rework,True,4.545,0,3k-6k,Normal (170-185),1.052
+BF0397,Line A,Evening,213,M-105,9+ years,4394.0,191.3,60.84,109.65,Crest Industrial,G1,LOT-1169,Dimensional Error,8,Rework,True,3.756,0,3k-6k,Warm (185-200),1.721
+BF0398,Line C,Night,281,M-105,9+ years,1700.0,203.12,83.28,119.16,Northstar Metals,G1,LOT-1248,Dimensional Error,36,Reject,True,12.811,1,0-3k,High (>200),2.228
+BF0399,Line A,Morning,180,M-103,6-8 years,5691.0,205.18,71.91,124.99,Northstar Metals,G3,LOT-1169,Surface Crack,14,Reject,True,7.778,0,3k-6k,High (>200),1.827
+BF0400,Line B,Morning,280,M-102,3-5 years,6252.0,178.26,78.76,116.96,Summit Alloy,G1,LOT-1137,Burr,10,Rework,True,3.571,0,6k-9k,Normal (170-185),1.126
+BF0401,Line A,Evening,92,M-106,6-8 years,2600.0,180.87,65.14,121.86,Summit Alloy,G2,LOT-1196,Porosity,4,Rework,True,4.348,0,0-3k,Normal (170-185),1.148
+BF0402,Line B,Night,200,M-103,6-8 years,5653.0,197.9,79.11,121.06,Apex Materials,G1,LOT-1100,Surface Crack,22,Reject,True,11.0,1,3k-6k,Warm (185-200),1.541
+BF0403,Line A,Morning,99,M-106,6-8 years,4615.0,191.23,93.23,107.39,Summit Alloy,G3,LOT-1060,Surface Crack,10,Reject,True,10.101,1,3k-6k,Warm (185-200),3.125
+BF0404,Line C,Evening,131,M-103,6-8 years,5413.0,193.51,76.43,118.14,Northstar Metals,G1,LOT-1180,Dimensional Error,7,Rework,True,5.344,0,3k-6k,Warm (185-200),0.977
+BF0405,Line A,Evening,367,M-106,6-8 years,4783.0,190.98,81.87,117.61,Crest Industrial,G3,LOT-1189,Dimensional Error,48,Reject,True,13.079,1,3k-6k,Warm (185-200),1.507
+BF0406,Line C,Morning,152,M-104,0-2 years,4031.0,197.3,79.54,133.35,Summit Alloy,G3,LOT-1003,Surface Crack,25,Reject,True,16.447,1,3k-6k,Warm (185-200),1.982
+BF0407,Line A,Morning,365,M-101,0-2 years,4744.0,191.35,72.74000000000001,119.47,Apex Materials,G3,LOT-1249,Dimensional Error,34,Reject,True,9.315,0,3k-6k,Warm (185-200),0.627
+BF0408,Line A,Morning,288,M-101,0-2 years,2777.0,173.29,78.9,112.4,Summit Alloy,G2,LOT-1058,Weld Defect,4,Pass,True,1.389,0,0-3k,Normal (170-185),1.399
+BF0409,Line C,Night,163,M-102,3-5 years,4855.0,186.84,71.8,129.04,Crest Industrial,G1,LOT-1214,Surface Crack,19,Reject,True,11.656,1,3k-6k,Warm (185-200),1.015
+BF0410,Line A,Night,86,M-103,6-8 years,1115.0,194.56,75.52,125.13,Summit Alloy,G2,LOT-1125,Porosity,7,Reject,True,8.14,0,0-3k,Warm (185-200),1.188
+BF0411,Line B,Night,370,M-105,9+ years,6351.0,186.84,65.06,117.61,Apex Materials,G1,LOT-1099,Dimensional Error,22,Rework,True,5.946,0,6k-9k,Warm (185-200),1.02
+BF0412,Line B,Morning,252,M-103,6-8 years,4505.0,197.28,76.21,136.47,Northstar Metals,G2,LOT-1133,Porosity,26,Reject,True,10.317,1,3k-6k,Warm (185-200),1.939
+BF0413,Line A,Morning,202,M-104,0-2 years,7248.0,194.33,62.26,116.19,Northstar Metals,G2,LOT-1100,Dimensional Error,10,Rework,True,4.95,0,6k-9k,Warm (185-200),1.596
+BF0414,Line B,Evening,248,M-106,6-8 years,5459.0,200.05,74.81,156.15,Apex Materials,G3,LOT-1245,Dimensional Error,30,Reject,True,12.097,1,3k-6k,High (>200),3.221
+BF0415,Line D,Night,178,M-105,9+ years,4248.0,200.82,78.39,107.66,Summit Alloy,G2,LOT-1150,Weld Defect,26,Reject,True,14.607,1,3k-6k,High (>200),1.687
+BF0416,Line B,Night,253,M-102,3-5 years,3852.0,205.39,73.09,131.08,Summit Alloy,G2,LOT-1021,Dimensional Error,17,Rework,True,6.719,0,3k-6k,High (>200),2.057
+BF0417,Line C,Morning,375,M-105,9+ years,4215.0,194.77,68.39,146.36,Crest Industrial,G3,LOT-1003,Surface Crack,70,Reject,True,18.667,1,3k-6k,Warm (185-200),2.439
+BF0418,Line A,Morning,150,M-104,0-2 years,7880.0,188.24,72.74000000000001,121.32,Northstar Metals,G3,LOT-1188,Porosity,15,Reject,True,10.0,1,6k-9k,Warm (185-200),0.537
+BF0419,Line C,Night,117,M-105,9+ years,5178.0,188.68,69.06,87.57,Apex Materials,G1,LOT-1013,Dimensional Error,9,Reject,True,7.692,0,3k-6k,Warm (185-200),2.027
+BF0420,Line A,Night,381,M-105,9+ years,7176.0,186.77,75.4,154.94,Crest Industrial,G3,LOT-1111,Burr,80,Reject,True,20.997,1,6k-9k,Warm (185-200),2.898
+BF0421,Line C,Evening,367,M-102,3-5 years,6174.0,180.97,67.74,117.8,Crest Industrial,G1,LOT-1223,Porosity,34,Reject,True,9.264,0,6k-9k,Normal (170-185),0.723
+BF0422,Line A,Evening,282,M-105,9+ years,7294.0,166.39,74.88,100.33,Northstar Metals,G2,LOT-1022,Burr,6,Pass,True,2.128,0,6k-9k,Low (<170),1.916
+BF0423,Line D,Night,88,M-106,6-8 years,8416.0,192.49,68.9,116.29,Summit Alloy,G3,LOT-1047,Porosity,13,Reject,True,14.773,1,6k-9k,Warm (185-200),0.771
+BF0424,Line C,Evening,232,M-103,6-8 years,5480.0,192.23,77.63,123.68,Northstar Metals,G1,LOT-1179,Burr,15,Rework,True,6.466,0,3k-6k,Warm (185-200),1.181
+BF0425,Line A,Night,299,M-106,6-8 years,4477.0,195.88,62.16,123.07,Crest Industrial,G2,LOT-1156,Weld Defect,34,Reject,True,11.371,1,3k-6k,Warm (185-200),1.769
+BF0426,Line B,Morning,198,M-104,0-2 years,4630.0,186.84,74.77,101.96,Northstar Metals,G1,LOT-1221,Dimensional Error,6,Pass,True,3.03,0,3k-6k,Warm (185-200),1.024
+BF0427,Line C,Morning,328,M-103,6-8 years,5078.0,186.03,80.73,124.64,Apex Materials,G3,LOT-1221,Weld Defect,34,Reject,True,10.366,1,3k-6k,Warm (185-200),1.427
+BF0428,Line A,Morning,213,M-104,0-2 years,6165.0,188.18,65.78,135.65,Summit Alloy,G1,LOT-1070,Surface Crack,12,Rework,True,5.634,0,6k-9k,Warm (185-200),1.742
+BF0429,Line C,Night,374,M-105,9+ years,5159.0,186.84,78.6,122.27,Crest Industrial,G1,LOT-1053,Porosity,64,Reject,True,17.112,1,3k-6k,Warm (185-200),1.087
+BF0430,Line A,Night,106,M-102,3-5 years,6535.0,194.49,84.1,102.82,Crest Industrial,G2,LOT-1225,Surface Crack,15,Reject,True,14.151,1,6k-9k,Warm (185-200),2.091
+BF0431,Line B,Night,187,M-104,0-2 years,6261.0,167.07,76.53,134.66,Crest Industrial,G2,LOT-1085,Burr,9,Rework,True,4.813,0,6k-9k,Low (<170),2.15
+BF0432,Line D,Evening,394,M-101,0-2 years,5506.0,178.61,78.46,132.07,Apex Materials,G2,LOT-1156,Porosity,19,Rework,True,4.822,0,3k-6k,Normal (170-185),1.619
+BF0433,Line B,Evening,264,M-102,3-5 years,8824.0,197.79,67.25,114.51,Crest Industrial,G2,LOT-1218,Weld Defect,22,Reject,True,8.333,0,6k-9k,Warm (185-200),1.264
+BF0434,Line D,Night,212,M-106,6-8 years,4448.0,203.14,67.92,131.37,Crest Industrial,G1,LOT-1025,Surface Crack,31,Reject,True,14.623,1,3k-6k,High (>200),1.998
+BF0435,Line D,Night,297,M-103,6-8 years,8049.0,206.24,73.62,135.94,Summit Alloy,G1,LOT-1042,Porosity,62,Reject,True,20.875,1,6k-9k,High (>200),2.329
+BF0436,Line A,Night,90,M-104,0-2 years,4318.0,209.08,78.58,117.61,Northstar Metals,G1,LOT-1146,Porosity,13,Reject,True,14.444,1,3k-6k,High (>200),2.224
+BF0437,Line C,Morning,374,M-103,6-8 years,3488.0,178.37,71.4,117.42,Crest Industrial,G2,LOT-1150,Surface Crack,20,Rework,True,5.348,0,3k-6k,Normal (170-185),0.585
+BF0438,Line C,Morning,154,M-102,3-5 years,4874.0,197.62,61.5,135.36,Summit Alloy,G1,LOT-1222,Weld Defect,17,Reject,True,11.039,1,3k-6k,Warm (185-200),2.339
+BF0439,Line D,Evening,109,M-104,0-2 years,1903.0,169.72,70.68,136.51,Crest Industrial,G2,LOT-1183,Burr,3,Pass,True,2.752,0,0-3k,Low (<170),2.004
+BF0440,Line C,Morning,308,M-104,0-2 years,3918.0,191.45,66.71,117.61,Apex Materials,G2,LOT-1248,Burr,13,Rework,True,4.221,0,3k-6k,Warm (185-200),0.946
+BF0441,Line A,Night,112,M-106,6-8 years,8171.0,190.99,72.74000000000001,92.41,Crest Industrial,G2,LOT-1121,Weld Defect,10,Reject,True,8.929,0,6k-9k,Warm (185-200),1.692
+BF0442,Line C,Evening,364,M-104,0-2 years,2409.0,173.82,70.73,125.62,Apex Materials,G3,LOT-1046,Dimensional Error,16,Rework,True,4.396,0,0-3k,Normal (170-185),1.215
+BF0443,Line B,Night,141,M-101,0-2 years,3600.0,203.83,70.55,120.97,Summit Alloy,G1,LOT-1130,Surface Crack,9,Rework,True,6.383,0,3k-6k,High (>200),1.639
+BF0444,Line A,Night,106,M-102,3-5 years,7519.0,215.74,64.9,100.51,Summit Alloy,G1,LOT-1170,Surface Crack,8,Reject,True,7.547,0,6k-9k,High (>200),2.943
+BF0445,Line D,Evening,269,M-101,0-2 years,5985.0,192.68,75.38,114.66,Apex Materials,G1,LOT-1051,Porosity,23,Reject,True,8.55,0,3k-6k,Warm (185-200),0.802
+BF0446,Line A,Evening,121,M-105,9+ years,3650.0,179.68,67.7,99.0,Northstar Metals,G2,LOT-1197,Weld Defect,3,Pass,True,2.479,0,3k-6k,Normal (170-185),1.371
+BF0447,Line D,Night,287,M-106,6-8 years,5005.0,176.25,71.36,109.37,Northstar Metals,G3,LOT-1238,Surface Crack,12,Rework,True,4.181,0,3k-6k,Normal (170-185),0.838
+BF0448,Line D,Morning,120,M-101,0-2 years,6451.0,173.21,62.93,107.29,Crest Industrial,G1,LOT-1109,Dimensional Error,5,Rework,True,4.167,0,6k-9k,Normal (170-185),1.717
+BF0449,Line B,Morning,119,M-102,3-5 years,7585.0,180.52,80.51,138.24,Northstar Metals,G3,LOT-1022,Porosity,7,Rework,True,5.882,0,6k-9k,Normal (170-185),2.091
+BF0450,Line A,Evening,86,M-102,3-5 years,4982.0,178.66,83.63,109.97,Apex Materials,G2,LOT-1044,Dimensional Error,4,Rework,True,4.651,0,3k-6k,Normal (170-185),1.78
+BF0451,Line B,Evening,176,M-103,6-8 years,7386.0,190.26,77.29,125.64,Apex Materials,G1,LOT-1044,Dimensional Error,11,Rework,True,6.25,0,6k-9k,Warm (185-200),1.158
+BF0452,Line B,Evening,306,M-103,6-8 years,4004.0,182.32,64.33,92.77,Apex Materials,G1,LOT-1082,Surface Crack,3,Pass,True,0.98,0,3k-6k,Normal (170-185),1.942
+BF0453,Line A,Night,271,M-102,3-5 years,3732.0,201.62,67.94,128.37,Northstar Metals,G1,LOT-1148,Weld Defect,24,Reject,True,8.856,0,3k-6k,High (>200),1.78
+BF0454,Line C,Morning,374,M-105,9+ years,4800.0,200.61,89.97,106.37,Apex Materials,G1,LOT-1172,Burr,37,Reject,True,9.893,1,3k-6k,High (>200),2.943
+BF0455,Line B,Night,111,M-105,9+ years,10500.0,168.27,73.77,116.48,Northstar Metals,G1,LOT-1227,Burr,4,Rework,True,3.604,0,9k+,Low (<170),1.421
+BF0456,Line C,Evening,202,M-103,6-8 years,6610.0,208.4,80.34,114.41,Summit Alloy,G2,LOT-1006,Surface Crack,38,Reject,True,18.812,1,6k-9k,High (>200),2.286
+BF0457,Line B,Evening,172,M-102,3-5 years,3661.0,180.12,77.0,106.26,Apex Materials,G2,LOT-1188,Surface Crack,7,Rework,True,4.07,0,3k-6k,Normal (170-185),1.032
+BF0458,Line A,Night,177,M-106,6-8 years,4945.0,177.95,79.56,103.27,Apex Materials,G1,LOT-1175,Surface Crack,12,Rework,True,6.78,0,3k-6k,Normal (170-185),1.488
+BF0459,Line D,Night,145,M-101,0-2 years,3418.0,182.56,85.6,114.58,Summit Alloy,G2,LOT-1198,Surface Crack,8,Rework,True,5.517,0,3k-6k,Normal (170-185),1.954
+BF0460,Line C,Morning,235,M-102,3-5 years,4040.0,202.66,57.03,110.02,Summit Alloy,G1,LOT-1087,Porosity,10,Rework,True,4.255,0,3k-6k,High (>200),2.62
+BF0461,Line C,Morning,347,M-103,6-8 years,4271.0,186.57,57.47,104.95,Apex Materials,G2,LOT-1136,Burr,11,Pass,True,3.17,0,3k-6k,Warm (185-200),2.2
+BF0462,Line A,Morning,109,M-105,9+ years,6807.0,176.03,75.01,108.46,Apex Materials,G1,LOT-1111,Porosity,3,Pass,True,2.752,0,6k-9k,Normal (170-185),0.981
+BF0463,Line A,Evening,90,M-101,0-2 years,6977.0,182.71,60.89,96.94,Summit Alloy,G3,LOT-1157,Porosity,1,Pass,True,1.111,0,6k-9k,Normal (170-185),2.054
+BF0464,Line A,Night,249,M-102,3-5 years,3674.0,186.84,60.59,123.78,Summit Alloy,G1,LOT-1014,Weld Defect,5,Pass,True,2.008,0,3k-6k,Warm (185-200),1.753
+BF0465,Line D,Morning,104,M-106,6-8 years,5119.0,201.76,73.89,105.76,Apex Materials,G2,LOT-1151,Porosity,8,Reject,True,7.692,0,3k-6k,High (>200),1.568
+BF0466,Line C,Morning,398,M-106,6-8 years,3788.0,190.01,75.23,119.78,Apex Materials,G1,LOT-1002,Burr,24,Rework,True,6.03,0,3k-6k,Warm (185-200),0.71
+BF0467,Line C,Evening,305,M-102,3-5 years,6912.0,168.05,61.54,106.79,Summit Alloy,G1,LOT-1095,Dimensional Error,15,Rework,True,4.918,0,6k-9k,Low (<170),2.138
+BF0468,Line A,Morning,364,M-104,0-2 years,7099.0,190.82,65.55,113.35,Apex Materials,G3,LOT-1110,Weld Defect,24,Rework,True,6.593,0,6k-9k,Warm (185-200),1.048
+BF0469,Line B,Morning,223,M-105,9+ years,7033.0,198.66,65.83,120.63,Summit Alloy,G1,LOT-1025,Dimensional Error,14,Rework,True,6.278,0,6k-9k,Warm (185-200),1.495
+BF0470,Line D,Night,201,M-106,6-8 years,3271.0,182.87,74.96,98.41,Apex Materials,G3,LOT-1229,Dimensional Error,11,Rework,True,5.473,0,3k-6k,Normal (170-185),1.271
+BF0471,Line C,Night,277,M-102,3-5 years,3566.0,159.45,79.05,101.52,Summit Alloy,G2,LOT-1109,Burr,10,Rework,True,3.61,0,3k-6k,Low (<170),2.545
+BF0472,Line A,Morning,124,M-105,9+ years,4614.0,151.72,69.16,111.77,Crest Industrial,G1,LOT-1157,Porosity,3,Pass,True,2.419,0,3k-6k,Low (<170),2.812
+BF0473,Line B,Night,294,M-103,6-8 years,3648.0,186.84,77.24,124.34,Crest Industrial,G1,LOT-1189,Surface Crack,25,Reject,True,8.503,0,3k-6k,Warm (185-200),1.014
+BF0474,Line B,Evening,329,M-101,0-2 years,2801.0,192.75,67.7,120.87,Summit Alloy,G3,LOT-1036,Porosity,14,Rework,True,4.255,0,0-3k,Warm (185-200),0.985
+BF0475,Line D,Evening,153,M-102,3-5 years,7453.0,174.04,70.11,126.24,Crest Industrial,G2,LOT-1095,Porosity,13,Reject,True,8.497,0,6k-9k,Normal (170-185),1.246
+BF0476,Line C,Night,274,M-105,9+ years,7333.0,180.7,68.66,152.42,Apex Materials,G2,LOT-1047,Burr,22,Reject,True,8.029,0,6k-9k,Normal (170-185),2.739
+BF0477,Line B,Night,202,M-101,0-2 years,5227.0,186.84,61.7,132.57,Crest Industrial,G1,LOT-1028,Surface Crack,7,Pass,True,3.465,0,3k-6k,Warm (185-200),1.94
+BF0478,Line C,Night,163,M-106,6-8 years,7931.0,188.38,76.62,123.06,Crest Industrial,G3,LOT-1120,Weld Defect,42,Reject,True,25.767,1,6k-9k,Warm (185-200),0.92
+BF0479,Line B,Night,291,M-103,6-8 years,6037.0,194.5,90.0,111.61,Apex Materials,G2,LOT-1031,Burr,28,Reject,True,9.622,1,6k-9k,Warm (185-200),2.701
+BF0480,Line A,Morning,156,M-104,0-2 years,4807.0,191.14,76.34,105.22,Summit Alloy,G1,LOT-1160,Surface Crack,10,Rework,True,6.41,0,3k-6k,Warm (185-200),1.065
+BF0481,Line D,Morning,101,M-106,6-8 years,4009.0,182.44,66.38,96.96,Summit Alloy,G1,LOT-1056,Weld Defect,2,Pass,True,1.98,0,3k-6k,Normal (170-185),1.533
+BF0482,Line D,Evening,141,M-101,0-2 years,3667.0,181.36,79.24,127.37,Summit Alloy,G2,LOT-1137,Surface Crack,7,Rework,True,4.965,0,3k-6k,Normal (170-185),1.394
+BF0483,Line A,Evening,215,M-103,6-8 years,5435.0,162.73,67.53,131.57,Summit Alloy,G2,LOT-1127,Weld Defect,5,Pass,True,2.326,0,3k-6k,Low (<170),2.292
+BF0484,Line D,Morning,263,M-106,6-8 years,5063.0,193.24,66.93,141.46,Crest Industrial,G3,LOT-1222,Surface Crack,38,Reject,True,14.449,1,3k-6k,Warm (185-200),2.137
+BF0485,Line A,Morning,161,M-103,6-8 years,3931.0,183.1,85.48,111.38,Summit Alloy,G2,LOT-1206,Porosity,5,Pass,True,3.106,0,3k-6k,Normal (170-185),1.949
+BF0486,Line B,Morning,394,M-106,6-8 years,4501.0,156.75,63.33,127.76,Northstar Metals,G3,LOT-1203,Porosity,6,Pass,True,1.523,0,3k-6k,Low (<170),2.812
+BF0487,Line D,Evening,340,M-102,3-5 years,4237.0,187.47,73.69,114.37,Summit Alloy,G1,LOT-1215,Surface Crack,18,Rework,True,5.294,0,3k-6k,Warm (185-200),0.32
+BF0488,Line C,Morning,364,M-103,6-8 years,3545.0,216.63,85.6,115.31,Summit Alloy,G1,LOT-1129,Dimensional Error,47,Reject,True,12.912,1,3k-6k,High (>200),3.275
+BF0489,Line D,Evening,239,M-102,3-5 years,4916.0,172.5,80.33,105.33,Apex Materials,G2,LOT-1103,Weld Defect,7,Pass,True,2.929,0,3k-6k,Normal (170-185),1.726
+BF0490,Line C,Evening,146,M-103,6-8 years,3924.0,179.59,73.72,109.73,Apex Materials,G2,LOT-1051,Weld Defect,6,Rework,True,4.11,0,3k-6k,Normal (170-185),0.637
+BF0491,Line D,Morning,353,M-106,6-8 years,5986.0,201.32,85.25,125.61,Northstar Metals,G3,LOT-1116,Weld Defect,41,Reject,True,11.615,1,3k-6k,High (>200),2.451
+BF0492,Line B,Night,318,M-106,6-8 years,6400.0,195.36,72.39,121.21,Apex Materials,G3,LOT-1003,Dimensional Error,31,Reject,True,9.748,1,6k-9k,Warm (185-200),0.972
+BF0493,Line B,Evening,369,M-102,3-5 years,3148.0,169.38,74.41,106.93,Summit Alloy,G1,LOT-1023,Burr,9,Pass,True,2.439,0,3k-6k,Low (<170),1.465
+BF0494,Line D,Night,135,M-106,6-8 years,6367.0,179.14,61.02,120.26,Apex Materials,G1,LOT-1113,Porosity,9,Rework,True,6.667,0,6k-9k,Normal (170-185),1.685
+BF0495,Line C,Evening,136,M-106,6-8 years,4018.0,185.56,77.42,114.9,Summit Alloy,G3,LOT-1187,Surface Crack,7,Rework,True,5.147,0,3k-6k,Warm (185-200),0.776
+BF0496,Line A,Morning,198,M-101,0-2 years,3018.0,186.84,68.18,89.24,Apex Materials,G2,LOT-1171,Burr,2,Pass,True,1.01,0,3k-6k,Warm (185-200),1.925
+BF0497,Line B,Morning,184,M-106,6-8 years,1425.0,187.16,64.82,135.01,Apex Materials,G2,LOT-1073,Burr,7,Rework,True,3.804,0,0-3k,Warm (185-200),1.768
+BF0498,Line A,Evening,135,M-102,3-5 years,7962.0,198.57,58.62,123.87,Crest Industrial,G3,LOT-1152,Burr,14,Reject,True,10.37,1,6k-9k,Warm (185-200),2.309
+BF0499,Line B,Morning,218,M-105,9+ years,5664.0,210.68,72.74000000000001,124.12,Apex Materials,G2,LOT-1109,Porosity,30,Reject,True,13.761,1,3k-6k,High (>200),2.239
+BF0500,Line C,Morning,380,M-106,6-8 years,8919.0,186.32,54.23,138.18,Northstar Metals,G2,LOT-1053,Dimensional Error,34,Reject,True,8.947,0,6k-9k,Warm (185-200),3.033
